@@ -1,0 +1,91 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Cover Letter - Zipline
+% Long Range Platform Embedded Firmware Intern (Summer 2027)
+% Plain XeLaTeX — matches simple resume style (Spectral font)
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\documentclass[11pt]{article}
+
+\usepackage[margin=0.75in, top=0.7in, bottom=0.7in]{geometry}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{parskip}
+\usepackage{fontspec}
+
+\setmainfont{Spectral}[
+  Path = ../../cv/fonts/,
+  UprightFont    = Spectral-Regular.ttf,
+  BoldFont       = Spectral-Bold.ttf,
+  ItalicFont     = Spectral-Italic.ttf,
+  BoldItalicFont = Spectral-BoldItalic.ttf
+]
+
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{7pt}
+
+% No hyphenation
+\hyphenpenalty=10000
+\exhyphenpenalty=10000
+
+\setlist[itemize]{leftmargin=*, topsep=4pt, itemsep=3pt, parsep=0pt}
+
+\pagestyle{empty}
+\urlstyle{same}
+
+\begin{document}
+
+% ── HEADER ───────────────────────────────────────────────────────────────────
+\begin{center}
+  {\LARGE\textbf{Travis Brown}}\\[3pt]
+  \href{mailto:browntravis760@gmail.com}{browntravis760@gmail.com} \textbullet\
+  518-796-8703 \textbullet\
+  \href{https://www.linkedin.com/in/tbrown5932}{linkedin.com/in/tbrown5932}
+\end{center}
+
+\vspace{2pt}
+\noindent\rule{\linewidth}{0.5pt}
+\vspace{10pt}
+
+% ── DATE ─────────────────────────────────────────────────────────────────────
+\begin{flushright}
+  \today
+\end{flushright}
+
+\vspace{4pt}
+
+% ── BODY ─────────────────────────────────────────────────────────────────────
+Dear Zipline Recruiting Team,
+
+I am applying for the Long Range Platform Embedded Firmware Internship for Summer 2027.
+I'm a Computer Science student at RIT in the accelerated combined bachelors and masters
+program, with an estimated graduation date of December 2027, and most of
+what I do outside of class is embedded firmware. At GE Vernova I built a full I/O subsystem
+from scratch in C on an STM32F7 for industrial radios, on the RIT Electric Vehicle Team I
+write C++ firmware in ThreadX RTOS for a custom motorcycle VCU with a 300\,Hz control
+loop across dual CAN buses, and in my free time I am currently building an autonomous fixed-wing flight
+controller on an ESP32S3 with FreeRTOS, PID stabilization, and GPS waypoint following,
+on a KiCad PCB I designed myself.
+
+Device drivers, sensor and actuator interfaces, and controls are the parts of embedded
+development I enjoy most, and that is exactly what the Long Range Platform team works on. I like understanding how software and hardware work, and fail, together; and I enjoy solving those issues with logic analyzers and oscilloscopes when debugging. 
+At GE Vernova, I diagnosed a servo jitter fault blocking a customer demo by ruling out signal integrity and timing before tracing it to a defective hardware component. A few other specifics:
+
+I've written hard real-time firmware in both ThreadX and FreeRTOS, with a 300\,Hz control
+deadline on the EVT VCU and concurrent sensor-fusion and autonomous-control tasks on the
+flight controller. Before first flight I built SITL simulators to validate PID gains across
+32 GPS approach scenarios, 8 headings and 4 approach distances. For protocols and interfaces, I have production firmware experience with CAN/CANopen,
+SPI, I2C, UART, ADC, PWM, Modbus TCP/RTU, MQTT over TCP/TLS, and MQTT-SN over UDP.
+
+Zipline is using autonomous aircraft to deliver blood and vaccines to communities that are
+hard to reach. That is not a use case most companies are building toward, and it is the
+kind of mission I want to be writing firmware for.
+
+Thank you for your consideration.
+
+\vspace{16pt}
+Kind regards,
+
+\vspace{20pt}
+Travis Brown
+
+\end{document}

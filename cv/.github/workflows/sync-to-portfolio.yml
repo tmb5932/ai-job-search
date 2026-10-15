@@ -1,0 +1,81 @@
+name: Sync resume to portfolio site
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'travis_resume.tex'
+      - 'travis_resume.pdf'
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    # Pinned to the same TeX Live 2026 snapshot used for local compiles, so
+    # CI output matches byte-for-byte (fonts, package versions, engine).
+    container:
+      image: danteev/texlive:2026-A
+    steps:
+      - name: Install git
+        run: apt-get update && apt-get install -y --no-install-recommends git
+
+      - name: Trust the container's checked-out repos
+        # actions/checkout only adds safe.directory to a temp HOME scoped to its
+        # own internal git calls, so it never reaches our own `git` commands
+        # below. Without this, git refuses to operate here (UID mismatch
+        # between the checkout and the container) and later steps fail with
+        # "fatal: not in a git directory".
+        run: git config --global --add safe.directory '*'
+
+      - name: Checkout resume repo
+        uses: actions/checkout@v4
+
+      - name: Compile travis_resume.pdf
+        run: |
+          mkdir -p fonts
+          cp .github/fonts/*.ttf fonts/
+          .github/scripts/compile.sh travis_resume.tex
+
+      - name: Generate redacted web_resume.tex
+        run: .github/scripts/make_web_resume.sh
+
+      - name: Compile web_resume.pdf
+        run: .github/scripts/compile.sh web_resume.tex
+
+      - name: Commit compiled resumes back to this repo
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add travis_resume.pdf web_resume.tex web_resume.pdf
+          if git diff --cached --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "Auto-generate resume PDF and web resume (contact info stripped)"
+            git push
+          fi
+
+      - name: Checkout portfolio repo
+        uses: actions/checkout@v4
+        with:
+          repository: tmb5932/tmb5932.github.io
+          token: ${{ secrets.PORTFOLIO_REPO_TOKEN }}
+          path: portfolio
+
+      - name: Copy web resume PDF
+        run: cp web_resume.pdf portfolio/assets/TB_Resume.pdf
+
+      - name: Commit and push to portfolio
+        working-directory: portfolio
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add assets/TB_Resume.pdf
+          if git diff --cached --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "Auto-update resume from resume repo (web version)"
+            git push
+          fi

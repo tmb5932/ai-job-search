@@ -1,0 +1,107 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Cover Letter - CesiumAstro
+% Embedded Software Engineering Internship (Summer 2027)
+% Plain XeLaTeX — matches simple resume style (Spectral font)
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\documentclass[11pt]{article}
+
+\usepackage[margin=0.75in, top=0.7in, bottom=0.7in]{geometry}
+\usepackage[hidelinks]{hyperref}
+\usepackage{parskip}
+\usepackage{fontspec}
+
+\setmainfont{Spectral}[
+  Path = ../../cv/fonts/,
+  UprightFont    = Spectral-Regular.ttf,
+  BoldFont       = Spectral-Bold.ttf,
+  ItalicFont     = Spectral-Italic.ttf,
+  BoldItalicFont = Spectral-BoldItalic.ttf
+]
+
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{7pt}
+
+% No hyphenation
+\hyphenpenalty=10000
+\exhyphenpenalty=10000
+
+\pagestyle{empty}
+\urlstyle{same}
+
+\begin{document}
+
+% ── HEADER ───────────────────────────────────────────────────────────────────
+\begin{center}
+  {\LARGE\textbf{Travis Brown}}\\[3pt]
+  \href{mailto:browntravis760@gmail.com}{browntravis760@gmail.com} \textbullet\
+  518-796-8703 \textbullet\
+  \href{https://www.linkedin.com/in/tbrown5932}{linkedin.com/in/tbrown5932}
+\end{center}
+
+\vspace{2pt}
+\noindent\rule{\linewidth}{0.5pt}
+\vspace{10pt}
+
+% ── DATE ─────────────────────────────────────────────────────────────────────
+\begin{flushright}
+  \today
+\end{flushright}
+
+\vspace{4pt}
+
+% ── BODY ─────────────────────────────────────────────────────────────────────
+Dear CesiumAstro Hiring Team,
+
+I am applying for the Summer 2027 Embedded Software Engineering Internship.
+I'm a Computer Science student at RIT in the combined bachelor's and
+master's program, with an expected graduation date of December 2027, and
+most of what I do outside of class is embedded firmware. At GE Vernova, I
+built a full I/O subsystem from scratch in C on an
+STM32F7 for industrial radios, using the STM32 Hardware Abstraction Layer, and
+implemented the Modbus register map that exposes diagnostic data over the
+network. On the RIT Electric Vehicle Team (EVT), I write firmware in both
+bare-metal C++ and ThreadX RTOS for a custom electric motorcycle we race. My most recent project is creating our real-time vehicle control unit (VCU) with a 300\,Hz control loop across dual CAN buses. In my free time I'm building an autonomous
+fixed-wing flight controller on an ESP32S3 running FreeRTOS, with PID
+stabilization and GPS waypoint following, on a KiCad PCB I designed myself.
+
+This is the kind of embedded work I want to be doing. CesiumAstro builds
+hardware that has to work in space, and I want to help build the software
+that runs on it, whether that's drivers, board support, or the
+applications on top. I also like that your engineering teams sit close to
+manufacturing and see hardware through from concept to delivery. That's
+already how I like to work, from designing my own PCBs to writing the
+firmware that runs on them.
+
+On EVT, the VCU firmware does more than just run a state machine. It also handles system-wide
+fault detection, directs data logging, and parses data from other onboard
+subsystems across multiple threads. The flight controller integrates the
+Madgwick AHRS library to fuse IMU and magnetometer data into the attitude
+estimates that feed the PID loop. Getting any of that right depends on understanding the
+hardware underneath it, so I have found reading schematics and datasheets directly when
+bringing up new boards to be crucial.
+
+For protocols and interfaces, I have production firmware experience with
+the Modbus register map, plus work across CAN/CANopen, SPI, I2C, UART,
+ADC, and PWM. On EVT, I also added STM32F446 support to our team's
+hardware-agnostic peripheral library, writing the drivers directly from the
+microcontroller's datasheets and reference manuals. I debug at the
+hardware level regularly, too, using a Saleae logic
+analyzer, oscilloscope, and J-Link Segger to trace firmware issues back to
+root cause. Writing code that's safe, readable, and easy to build on
+matters just as much as getting it working in the first place. At
+Lockheed Martin, I worked inside a defense engineering
+process built around peer review and defect tracking, and the code review
+tool I wrote there was deployed as a mandatory GitLab CI gate on every
+merge request.
+
+I would welcome the opportunity to talk more about where I could contribute.
+Thank you for your consideration.
+
+\vspace{16pt}
+Kind regards,
+
+\vspace{10pt}
+Travis Brown
+
+\end{document}

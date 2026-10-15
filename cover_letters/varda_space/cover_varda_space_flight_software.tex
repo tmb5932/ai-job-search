@@ -1,0 +1,87 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Cover Letter - Varda Space Industries
+% Flight Software Internship, Summer 2027
+% Plain XeLaTeX — matches simple resume style (Spectral font)
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\documentclass[11pt]{article}
+
+\usepackage[margin=0.75in, top=0.7in, bottom=0.7in]{geometry}
+\usepackage[hidelinks]{hyperref}
+\usepackage{parskip}
+\usepackage{fontspec}
+
+\setmainfont{Spectral}[
+  Path = ../../cv/fonts/,
+  UprightFont    = Spectral-Regular.ttf,
+  BoldFont       = Spectral-Bold.ttf,
+  ItalicFont     = Spectral-Italic.ttf,
+  BoldItalicFont = Spectral-BoldItalic.ttf
+]
+
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{14pt}
+\linespread{1.15}
+\raggedright
+
+% No hyphenation
+\hyphenpenalty=10000
+\exhyphenpenalty=10000
+
+\pagestyle{empty}
+\urlstyle{same}
+
+\begin{document}
+
+% ── DATE ─────────────────────────────────────────────────────────────────────
+\begin{flushright}
+  \today
+\end{flushright}
+
+% ── BODY ─────────────────────────────────────────────────────────────────────
+Dear Varda Hiring Team,
+
+I'm applying for the Flight Software Internship for Summer 2027. I'm a
+Computer Science student at RIT in the combined bachelor's and master's
+program, with an expected graduation date of December 2027, and have a
+strong interest in firmware and embedded software. At GE Vernova, I built a
+full I/O subsystem from scratch in C on an STM32F7 for industrial radios.
+On the RIT Electric Vehicle Team, I'm the vehicle control unit (VCU)
+Software Lead, building real-time ThreadX firmware for our track
+motorcycle, including board-level fault handling and health monitoring
+across the vehicle's threads and CAN buses. In my free time I'm building an
+autonomous fixed-wing flight controller on an ESP32S3, with PID
+stabilization, sensor fusion, and GPS waypoint following validated across
+an 80-test SITL regression suite; the full airframe recently completed its
+first flight in manual mode.
+
+What got me interested in Varda specifically is that the same flight
+software has to work across very different phases of one mission, from
+quiet on-orbit processing to the heat and deceleration of atmospheric
+reentry to landing. What counts as a fault, and how the software should
+respond, changes depending on which phase it's in. That's the same kind of
+thinking behind the fault handling and health monitoring I built into the
+VCU, and I want to bring it to a vehicle that has to work across a mission
+like that.
+
+I debug hardware issues regularly with a Saleae logic analyzer, an
+oscilloscope, and a J-Link Segger, and I've written drivers directly from
+microcontroller datasheets and reference manuals on both the GE Vernova I/O
+subsystem and EVT's hardware-agnostic peripheral library. I've worked
+across SPI, I2C, UART, ADC, and PWM integrating sensors and actuators into
+real-time C and C++
+firmware, and the VCU's health-monitoring thread tracks whether every other
+thread, the control loop, the CAN receive paths, actually ran correctly
+within its expected window. At Lockheed Martin, I also built a code-review
+automation tool that became a mandatory part of the team's merge request
+process, so I'm comfortable with the testing and process-automation side
+of engineering too.
+
+I would welcome the opportunity to talk more about where I could
+contribute. Thank you for your consideration.
+
+Thanks,
+
+Travis Brown
+
+\end{document}

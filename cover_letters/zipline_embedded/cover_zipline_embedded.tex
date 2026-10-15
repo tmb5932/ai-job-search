@@ -1,0 +1,91 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Cover Letter - Zipline
+% Embedded Engineering Intern (Summer 2027)
+% Plain XeLaTeX — matches simple resume style (Spectral font)
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\documentclass[11pt]{article}
+
+\usepackage[margin=0.75in, top=0.7in, bottom=0.7in]{geometry}
+\usepackage[hidelinks]{hyperref}
+\usepackage{parskip}
+\usepackage{fontspec}
+
+\setmainfont{Spectral}[
+  Path = ../../cv/fonts/,
+  UprightFont    = Spectral-Regular.ttf,
+  BoldFont       = Spectral-Bold.ttf,
+  ItalicFont     = Spectral-Italic.ttf,
+  BoldItalicFont = Spectral-BoldItalic.ttf
+]
+
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{7pt}
+
+% No hyphenation
+\hyphenpenalty=10000
+\exhyphenpenalty=10000
+
+\pagestyle{empty}
+\urlstyle{same}
+
+\begin{document}
+
+% ── HEADER ───────────────────────────────────────────────────────────────────
+\begin{center}
+  {\LARGE\textbf{Travis Brown}}\\[3pt]
+  \href{mailto:browntravis760@gmail.com}{browntravis760@gmail.com} \textbullet\
+  518-796-8703 \textbullet\
+  \href{https://www.linkedin.com/in/tbrown5932}{linkedin.com/in/tbrown5932}
+\end{center}
+
+\vspace{2pt}
+\noindent\rule{\linewidth}{0.5pt}
+\vspace{10pt}
+
+% ── DATE ─────────────────────────────────────────────────────────────────────
+\begin{flushright}
+  \today
+\end{flushright}
+
+\vspace{4pt}
+
+% ── BODY ─────────────────────────────────────────────────────────────────────
+Dear Zipline Recruiting Team,
+
+I am applying for the Embedded Engineering Internship for Summer 2027.
+I'm a Computer Science student at RIT in the accelerated combined bachelors and masters
+program, with an estimated graduation date of December 2027, and most of what I do outside
+of class is embedded firmware. At GE Vernova I built a full I/O subsystem from scratch in
+C on an STM32F7 for industrial radios, on the RIT Electric Vehicle Team I write C++
+firmware in ThreadX RTOS for a custom motorcycle VCU with a 300\,Hz control loop across
+dual CAN buses, and in my free time I am currently building an autonomous fixed-wing flight
+controller on an ESP32S3 with FreeRTOS, PID stabilization, and GPS waypoint following,
+on a KiCad PCB I designed myself.
+
+The embedded challenges that come with urban autonomous delivery are the kind I find most
+interesting: keeping a hovering aircraft precise enough to lower a package to someone's yard,
+operating near buildings and people, at a scale that runs continuously worldwide. Those are
+the kinds of problems where you have to understand the hardware to understand the firmware.
+At GE Vernova, a week before a customer demo, I diagnosed a servo jitter fault by working
+through software, RF interference, and PCB layout one by one with engineers from each
+discipline before tracing it to a defective servo. That kind of cross-stack debugging is
+what I find most engaging.
+
+I've written hard real-time firmware in both ThreadX and FreeRTOS, with a 300\,Hz hard
+real-time control loop on the EVT VCU and concurrent sensor-fusion and autonomous-control
+tasks on the flight controller. For protocols and interfaces, I have production firmware
+experience with CAN/CANopen, SPI, I2C, UART, ADC, PWM, Modbus TCP, and MQTT.
+
+Zipline makes a delivery every 30 seconds. Writing the embedded software running on those
+aircraft is exactly the kind of work I want to be doing.
+
+Thank you for your consideration.
+
+\vspace{16pt}
+Kind regards,
+
+\vspace{20pt}
+Travis Brown
+
+\end{document}

@@ -1,0 +1,88 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Cover Letter - Waymo
+% 2027 Summer Intern, BS/MS, Embedded, Software Engineer
+% Plain XeLaTeX — matches simple resume style (Spectral font)
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\documentclass[11pt]{article}
+
+\usepackage[margin=0.75in, top=0.7in, bottom=0.7in]{geometry}
+\usepackage[hidelinks]{hyperref}
+\usepackage{parskip}
+\usepackage{fontspec}
+
+\setmainfont{Spectral}[
+  Path = ../../cv/fonts/,
+  UprightFont    = Spectral-Regular.ttf,
+  BoldFont       = Spectral-Bold.ttf,
+  ItalicFont     = Spectral-Italic.ttf,
+  BoldItalicFont = Spectral-BoldItalic.ttf
+]
+
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{14pt}
+\linespread{1.15}
+\raggedright
+
+% No hyphenation
+\hyphenpenalty=10000
+\exhyphenpenalty=10000
+
+\pagestyle{empty}
+\urlstyle{same}
+
+\begin{document}
+
+% ── DATE ─────────────────────────────────────────────────────────────────────
+\begin{flushright}
+  \today
+\end{flushright}
+
+% ── BODY ─────────────────────────────────────────────────────────────────────
+Dear Waymo Hiring Team,
+
+I'm applying for the internship on Waymo's Embedded Software Engineering
+team for Summer 2027. I'm a Computer Science student at RIT in the
+combined bachelor's and
+master's program, with an expected graduation date of December 2027, and
+have a strong interest in firmware and embedded software. At GE Vernova, I
+built a full I/O subsystem from scratch in C on an STM32F7 for industrial
+radios. On the RIT Electric Vehicle Team, I'm the vehicle control unit
+(VCU) Software Lead. The firmware I've built so far is for our current
+track motorcycle's VCU, bringing up a custom STM32F446 board and
+integrating it with the rest of the vehicle over CAN and CANopen. In my
+free time I'm building an autonomous fixed-wing flight controller on an
+ESP32S3, with an 80-test regression suite covering step responses, noise
+sweeps, and waypoint missions to catch edge cases before it ever flies.
+
+What got me interested in Waymo specifically is how the compute redundancy
+is built. Two independent compute units run the full workload in parallel,
+and if one faults, the other takes over, backed by a secondary computer
+whose only job is to bring the vehicle to a safe stop if something goes
+wrong. That's the same direction my team is building toward on the VCU,
+adding a second independent microcontroller that watches the main one and
+can force a safe shutdown if it detects a problem. I want to help build
+that kind of fault-tolerant embedded software.
+
+Hardware bring-up and lab debugging are a big part of how I work. I debug
+at the hardware level regularly with a Saleae logic analyzer, an
+oscilloscope, and a J-Link Segger, and I've written peripheral drivers for
+EVT's hardware-agnostic library directly from microcontroller datasheets
+and reference manuals. My
+flight controller project is the closest thing I have to the kind of
+embedded work this role needs. I wrote the PID stabilization and navigation
+firmware for the aircraft, and built SITL simulators alongside it to
+validate the gains across 80 regression tests before testing on real
+hardware. At Lockheed Martin, I wrote a
+Python tool that automated QA checks across 100+ repositories and was
+deployed as a mandatory GitLab CI gate, so I'm comfortable writing the kind
+of test tooling and automation this role also needs.
+
+I would welcome the opportunity to talk more about where I could
+contribute. Thank you for your consideration.
+
+Thanks,
+
+Travis Brown
+
+\end{document}

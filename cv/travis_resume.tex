@@ -1,0 +1,127 @@
+%% Simple CV - Travis Brown
+%% Matches the style of the user's existing PDF resume.
+%% Compile with: xelatex travis_resume.tex
+
+\documentclass[10pt]{article}
+
+\usepackage[margin=0.35in, top=0.35in, bottom=0.35in]{geometry}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{parskip}
+\usepackage{array}
+\usepackage{fontspec}
+
+\setmainfont{Spectral}[
+  Path = fonts/,
+  UprightFont    = Spectral-Regular.ttf,
+  BoldFont       = Spectral-Bold.ttf,
+  ItalicFont     = Spectral-Italic.ttf,
+  BoldItalicFont = Spectral-BoldItalic.ttf
+]
+
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0pt}
+\raggedright
+
+% Bullet items: 9.5pt text, slight breathing room between items
+\setlist[itemize]{leftmargin=*, topsep=2pt, itemsep=2pt, parsep=0pt}
+\let\olditemize\itemize
+\renewcommand\itemize{\olditemize\fontsize{9.5}{12}\selectfont}
+
+% Remove page number
+\pagestyle{empty}
+
+% Section heading: ALL CAPS bold with rule immediately below
+\newcommand{\resumesection}[1]{%
+  \vspace{5pt}%
+  \noindent\textbf{#1}\\[-8pt]%
+  \noindent\rule{\linewidth}{0.5pt}%
+  \vspace{1pt}%
+}
+
+% Experience / Project entry
+% #1 = Role/Project title  #2 = Company/Org  #3 = Date
+\newcommand{\entry}[3]{%
+  \noindent\textbf{#1}\\%
+  \noindent\textbf{#2}\hfill#3%
+}
+
+\begin{document}
+
+% ── HEADER ──────────────────────────────────────────────────────────────────
+\begin{center}
+  {\LARGE\textbf{Travis Brown}}\\[2pt]
+  % WEB-RESUME:REMOVE-START (stripped from the public web copy by .github/scripts/make_web_resume.sh)
+  \href{mailto:browntravis760@gmail.com}{browntravis760@gmail.com} \textbullet\
+  518-796-8703 \textbullet\
+  % WEB-RESUME:REMOVE-END
+  \href{https://github.com/tmb5932}{github.com/tmb5932} \textbullet\
+  \href{https://www.travismbrown.com}{travismbrown.com} \textbullet\
+  \href{https://www.linkedin.com/in/tbrown5932}{linkedin.com/in/tbrown5932}
+\end{center}
+
+% ── OBJECTIVE ───────────────────────────────────────────────────────────────
+\resumesection{OBJECTIVE}
+\textbf{Seeking an embedded software and firmware engineering internship for Summer 2027.}
+
+% ── EDUCATION ───────────────────────────────────────────────────────────────
+\resumesection{EDUCATION}
+\noindent\textbf{Rochester Institute of Technology}\hfill Expected: December 2027\\
+\textit{Master of Science and Bachelor of Science in Computer Science}\hfill\textbf{GPA: 3.96}
+
+% ── SKILLS ──────────────────────────────────────────────────────────────────
+\resumesection{SKILLS}
+\noindent\textbf{Languages:} C, C++, Python, Rust, JavaScript, MIPS Assembly\\[3pt]
+\noindent\textbf{Embedded:} STM32 / ESP32 microcontrollers, FreeRTOS / ThreadX RTOS, CAN/CANopen, Modbus, MQTT, SPI, I2C, UART, PWM, ADC, PID control, SITL simulation, OpenOCD, J-Link Segger, logic analyzer, oscilloscope\\[3pt]
+\noindent\textbf{Tools:} Git, GitHub, GitLab, Linux, macOS, KiCad, Onshape, STM32 CubeMX / CubeIDE
+
+% ── EXPERIENCE ─────────────────────────────────────────────────────────
+\resumesection{EXPERIENCE}
+
+\entry{Embedded Software Intern}{GE Vernova}{May 2026 – Present}
+\begin{itemize}
+  \item Built a full I/O subsystem from scratch for industrial radios on STM32F7, supporting digital in/out, analog input, PWM output, and interrupt-driven edge detection across three configurable I/O ports.
+  \item Implemented Modbus TCP, RTU, and ASCII servers with a register map exposing diagnostics, I/O states, and network health.
+  \item Integrated MQTT and MQTT-SN support over TCP, TLS, and UDP to the radio's firmware, with an in-field certificate upload workflow and dedicated topics for pushing config updates to the whole fleet or a single radio wirelessly.
+  \item Diagnosed servo jitter blocking a customer demo, ruling out signal integrity and timing via oscilloscope and Saleae before tracing the fault to a defective servo, enabling the demo to proceed on schedule.
+\end{itemize}
+
+\vspace{3pt}
+\entry{Software QA Automation Intern}{Lockheed Martin}{May 2025 – August 2025}
+\begin{itemize}
+  \item Developed a Python tool automating over 60\% of QA's manual merge request (MR) checklist across 100+ repos, cutting review time by~75\% (20 min $\to$ 5 min); added as a required GitLab CI check after several QA feedback rounds.
+  \item Authored checks for secrets, commented-out code, dependency versions, README contents, and MR/Jira ticket validity.
+  \item Published results to a GitLab Pages report with color-coded status, recommendations, and links for instant developer feedback.
+\end{itemize}
+
+\vspace{3pt}
+\entry{Embedded Software Engineer}{RIT Electric Vehicle Team}{August 2023 – Present}
+\begin{itemize}
+  \item Engineered C++ firmware for an STM32F446 vehicle control unit (VCU) of an electric motorcycle, following cross-team ISO~26262 principles (risk analysis, safety requirements, safe states, testing); integrated the controls team's Simulink state machine at 300 Hz.
+  \item Structured the VCU's multithreaded ThreadX design with a timer-triggered model thread, health monitoring, interrupt-fed CAN queues, mutexes, and event flags for drive-by-wire control and bike-wide fault handling.
+  \item Connected the VCU to the motor controller, BMS, and handlebar interface~board (HIB) over CAN and to the low-voltage subsystem (LVSS) over CANopen; designed the VCU's CANopen dictionary and message formats, co-designing LVSS/HIB payloads.
+  \item Delivered a UART/NMEA 0183 GNSS driver for the Gateway Utility Board with checksums, message filtering, and configurable rate.
+  \item Expanded our hardware-agnostic library with STM32F446 peripheral drivers (PWM, ADC, SPI, timers) using STM32 HAL.
+\end{itemize}
+
+% ── PROJECTS ────────────────────────────────────────────────────────────────
+\resumesection{PROJECTS}
+
+\entry{Autonomous Fixed-Wing Flight Controller}{Personal Project}{June 2026 – Present}
+\begin{itemize}
+  \item Programmed a custom ESP32S3 based flight controller in C using FreeRTOS, implementing autonomous PID stabilization (roll and pitch), sensor fusion, GPS waypoint sequencing, and manual override.
+  \item Created attitude and navigation SITL simulators; validated roll, pitch, and heading PID gains across 80 regression tests covering step responses, noise sweeps, and waypoint missions, ahead of autonomous flight testing.
+  \item Designed a flight controller PCB in KiCad with dual onboard IMUs, onboard barometer, SPI/I2C/UART sensor buses, eight PWM outputs, Schottky reverse-current protection on the 5~V input, and separate servo, logic, and sensor supply rails.
+\end{itemize}
+
+\vspace{3pt}
+\entry{Handheld Chip-8 Emulator}{Personal Project}{June 2025 – December 2025}
+\begin{itemize}
+  \item Wrote a Chip-8 emulator in Rust on a Raspberry Pi, including an SPI display driver for the SSD1309 OLED.
+  \item Hand-soldered a keypad PCB designed in KiCad; modeled and 3D-printed an enclosure in Onshape.
+  \item Extended the emulator with configurable cycle speed and per-ROM quirk flags; wrote a game-selection ROM in Octo assembly.
+\end{itemize}
+
+\vfill
+
+\end{document}

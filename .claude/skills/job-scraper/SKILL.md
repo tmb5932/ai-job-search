@@ -109,18 +109,19 @@ For each new job, do a rapid fit check (NOT the full evaluation from `04-job-eva
 }
 ```
 2. Only present jobs NOT already in the seen list or tracker.
+3. **Before presenting, merge in carryover:** query `seen_jobs.json` for every entry with `status: "new"` regardless of `first_seen` date, not just jobs found in this run. A job stays "new" until it's actually been reviewed (skipped/ranked/applied/expired) — never let an older unreviewed posting silently disappear just because a newer scrape ran. Mark carryover rows clearly (e.g. their original `first_seen` date) so staleness is visible.
 
 ### Step 5: Present Results
 
-Present new jobs in a table sorted by fit (high first):
+Present new jobs (this run's results plus any carryover) in a table sorted by fit (high first):
 
 ```
 ## New Job Matches - YYYY-MM-DD
 
 Found X new positions (Y high, Z medium, W low match).
 
-| # | Fit | Title | Company | Location | Deadline | URL |
-|---|-----|-------|---------|----------|----------|-----|
+| # | Fit | Title | Company | Job ID / Req # | Location | Deadline | URL |
+|---|-----|-------|---------|----------------|----------|----------|-----|
 | 1 | High | ... | ... | ... | ... | [Link](...) |
 
 ### High-Match Highlights

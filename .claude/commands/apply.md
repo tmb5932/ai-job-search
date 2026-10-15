@@ -59,27 +59,38 @@ Read only the reference files you do not yet have:
 - `.claude/skills/job-application-assistant/05-cv-templates.md`
 - `.claude/skills/job-application-assistant/06-cover-letter-templates.md`
 
-Also read the most recent existing CV and cover letter files for concrete structural reference (one of each is enough):
-- Read any existing `cv/main_*.tex` file as a LaTeX template reference
-- Read any existing `cover_letters/cover_*.tex` or `cover_letters/Cover_*.tex` file as a template reference
+Also read the most recent existing CV and cover letter files for concrete structural reference:
+- Read `cv/travis_resume.tex` (the base resume — always start a new variant from this, not an older company variant) as the structural reference
+- Read the most recently modified `cover_letters/<company>/cover_*.tex` file as a template reference (prefer the newest one — it reflects the latest style fixes, e.g. no header block, `\raggedright`, generous paragraph spacing)
 
-### CV (`cv/main_<company>.tex`)
+### CV (`cv/<company>/<role-slug>/travis_resume_<company>_<role-slug>.tex`) — exact 4-step process, every time
+
+Follow these steps in order. Do not skip or compress them, and do not write any content change to the file until step 4.
+
+1. **Copy the base resume file into the new subfolder and rename it** (`cv/travis_resume.tex` → `cv/<company>/<role-slug>/travis_resume_<company>_<role-slug>.tex`), unchanged, before deciding on any content. This gives you (and the user) a clean starting point identical to the base.
+2. **Decide what changes you want to make**, relative to that copied file — objective line, bullet wording, skills reordering, additions/removals. Do this thinking silently; do not write or alter the file yet.
+3. **Prompt the user for each individual change**, showing the exact old text and the exact new text for that one change (the literal wording that will go in the file, not a paraphrase or summary), plus a one-line reason. Present changes as a list if there are several, but each one must show its own literal old→new text.
+4. **Apply only after approval.** If the user asks to reword a change, revise it and go back to step 3 with the updated wording — do not write anything until the final wording is approved. Once every proposed change is approved, apply them to the file.
+
+Structural-only differences (compile-filename comment, font path, `WEB-RESUME:REMOVE` markers) don't need approval — only content changes go through steps 2-4.
+
+General content rules while deciding what to change in step 2:
 - Always in **English**
-- Follow the moderncv/banking format from `05-cv-templates.md`
-- Tailor the profile statement and experience bullets to the specific role
+- Follow the plain-XeLaTeX/Spectral-font format from `05-cv-templates.md` (not moderncv)
+- Tailor the objective line and experience/project bullets to the specific role
 - Reframe skills and achievements to match job requirements
-- Keep to 2 pages
+- Keep to exactly 1 page
 
-### Cover Letter (`cover_letters/cover_<company>_<role>.tex`)
+### Cover Letter (`cover_letters/<company>/cover_<company>_<role>.tex`)
 - **Match the language of the job posting** (Danish posting -> Danish cover letter, English posting -> English cover letter)
-- Follow the structure from `06-cover-letter-templates.md`
-- Use the `cover.cls` template
+- Use the plain Spectral-font article-class template (matches the resume's style) — not the `cover.cls` template `06-cover-letter-templates.md` describes; that's a known doc/practice drift, follow the most recent existing cover letter file as the structural reference instead
+- Compile with an explicit `-jobname="Travis_<Company>_Cover_Letter"` so the uploaded PDF has a clean name (see `06-cover-letter-templates.md`)
 - Tailor the opening paragraph to the specific role and company
 - Address to a named person if available in the posting, otherwise "Dear Hiring Manager" (or equivalent in posting language)
 - Keep to approximately one page
 - Any mention of agentic coding or AI tooling must reference **Claude Code** by name
 
-Write both files to disk. Keep the exact text of both drafts in working memory — you will pass them inline to the reviewer in Step 3 and revise them in Step 4 without re-reading.
+Write the cover letter to disk once drafted (no pre-approval gate — it's new content each time, not a diff against a base, and gets full review at Step 6 anyway). Keep the exact text of both drafts in working memory — you will pass them inline to the reviewer in Step 3 and revise them in Step 4 without re-reading.
 
 ---
 
@@ -113,11 +124,11 @@ Do NOT read `05-cv-templates.md` or `06-cover-letter-templates.md` — those gov
 ### 3. Drafts to Review
 Both drafts are provided inline below. Do NOT use the Read tool on the draft files — use these exact texts.
 
-<CV_DRAFT file="cv/main_<COMPANY>.tex">
+<CV_DRAFT file="cv/<COMPANY>/<ROLE_SLUG>/travis_resume_<COMPANY>_<ROLE_SLUG>.tex">
 <INSERT_CV_DRAFT_HERE>
 </CV_DRAFT>
 
-<COVER_LETTER_DRAFT file="cover_letters/cover_<COMPANY>_<ROLE>.tex">
+<COVER_LETTER_DRAFT file="cover_letters/<COMPANY>/cover_<COMPANY>_<ROLE>.tex">
 <INSERT_COVER_LETTER_DRAFT_HERE>
 </COVER_LETTER_DRAFT>
 
@@ -134,7 +145,7 @@ Return your feedback in **two parts**:
 A JSON array of concrete edits the drafter can apply directly without re-reading the files. Each edit is an object:
 ```json
 {
-  "file": "cv/main_<COMPANY>.tex" | "cover_letters/cover_<COMPANY>_<ROLE>.tex",
+  "file": "cv/<COMPANY>/<ROLE_SLUG>/travis_resume_<COMPANY>_<ROLE_SLUG>.tex" | "cover_letters/<COMPANY>/cover_<COMPANY>_<ROLE>.tex",
   "old_string": "<exact text currently in the draft>",
   "new_string": "<replacement text>",
   "reason": "<one-line rationale: keyword match / company angle / reframing / style>"
@@ -162,16 +173,17 @@ Return Part A and Part B together as a single structured message.
 
 Once the reviewer agent returns its feedback:
 
-1. **Apply Part A (structured edits) directly with the Edit tool.** Do NOT re-read the draft files — you already have them in context from Step 2, and the reviewer's `old_string` values were quoted from that same text. For each edit in the JSON array, call `Edit` with the given `file`, `old_string`, and `new_string`. Skip any whose rationale would require fabricating content.
-2. **Apply Part B (narrative suggestions)** using judgment. These need interpretation, not mechanical replacement. Walk through every Part B category the reviewer returned and address it:
+1. **CV edits go through the same steps 2-4 approval process as above, cover letter edits do not.** Sort the reviewer's Part A/B suggestions by target file. For `cover_letters/...`, apply directly (see below). For `cv/...`, present each proposed change individually with its exact old text and exact new text (not a paraphrase) and wait for approval before touching the file — do not call `Edit` on the CV until approved, and if the user asks for different wording, revise and re-present before applying. This applies even to edits the reviewer marked as corrections: a reviewer agent cannot independently verify a claim about Travis's own past work (see `03-writing-style.md` rule 6), so a reviewer-flagged "overclaim" in the CV is a proposal for the user to confirm, not a fact to apply.
+2. **Apply Part A (structured edits) directly with the Edit tool** for the cover letter, and for the CV once its changes are approved. Do NOT re-read the draft files — you already have them in context from Step 2, and the reviewer's `old_string` values were quoted from that same text. Skip any whose rationale would require fabricating content.
+3. **Apply Part B (narrative suggestions)** using judgment — these need interpretation, not mechanical replacement, but CV-targeted ones still go through step 1's approval gate. Walk through every Part B category the reviewer returned and address it:
    - **Missed keywords/requirements:** add the keyword or capability where it fits naturally in the CV or cover letter. Prefer the experience bullets (concrete evidence) over the profile statement (abstract claim).
    - **Company/department-specific angles:** weave the reviewer's research into the cover letter opening or motivation paragraph. Verify every company claim via WebFetch/WebSearch before including it — do not trust reviewer research at face value.
-   - **Action-oriented reframing:** rewrite passive or generic phrasing (CV profile statement, cover letter opening, bullet leads). Structural weakness that the reviewer flagged without a clean JSON edit lives here.
+   - **Action-oriented reframing:** rewrite passive or generic phrasing (CV profile statement, cover letter opening, bullet leads). Structural weakness that the reviewer flagged without a clean JSON edit lives here. Watch for a rewrite quietly changing scope or specificity (e.g. adding "across the org" to a claim that was team-scoped) — that's a factual change riding along on a style fix, not just tightening.
    - **Tone and style issues:** apply the writing-style-guide fixes (no em-dashes, no cliches, no apologetic hedging, consistent first-person active voice).
    Use Edit for targeted changes; only re-read a file if an edit fails because the surrounding text has shifted.
-3. Do NOT incorporate any suggestion that would fabricate skills or experience. If a posting requirement is a genuine gap, acknowledge it honestly and frame adjacent experience instead.
+4. Do NOT incorporate any suggestion that would fabricate skills or experience. If a posting requirement is a genuine gap, acknowledge it honestly and frame adjacent experience instead.
 
-After all edits are applied, the two files on disk are the final drafts.
+After all edits are applied (CV edits post-approval, cover letter edits directly), the two files on disk are the final drafts.
 
 ---
 
@@ -182,12 +194,12 @@ After all edits are applied, the two files on disk are the final drafts.
 ### 5a. Compile
 
 ```bash
-cd cv && lualatex -interaction=nonstopmode main_<company>.tex
-cd ../cover_letters && xelatex -interaction=nonstopmode cover_<company>_<role>.tex
+cd cv/<company>/<role-slug> && xelatex -interaction=nonstopmode -jobname="Travis_Brown_Resume" travis_resume_<company>_<role-slug>.tex
+cd ../../../cover_letters/<company> && xelatex -interaction=nonstopmode -jobname="Travis_<Company>_Cover_Letter" cover_<company>_<role>.tex
 ```
 
-- CV uses **lualatex** — pdflatex fails on modern MiKTeX with fontawesome5 font-expansion errors. lualatex handles the same sources cleanly.
-- Cover letter uses **xelatex** — cover.cls requires fontspec.
+- CV uses **xelatex** — the template's `fontspec`-loaded Spectral font requires it (not lualatex, not pdflatex).
+- Cover letter uses **xelatex** — the plain Spectral-font article-class template also requires fontspec.
 
 If either compile fails, fix the error and re-compile until clean.
 
@@ -195,24 +207,25 @@ If either compile fails, fix the error and re-compile until clean.
 
 Read both PDFs via the Read tool and verify:
 
-**CV (`cv/main_<company>.pdf`):**
-- [ ] Exactly 2 pages (not 1, not 3)
-- [ ] No orphaned `\cventry` titles — a job/education title line must never sit alone at the bottom of page 1 with its bullets on page 2. This is the most common failure.
-- [ ] Section headings are not isolated at the top of page 2 with only 1-2 lines below
-- [ ] No awkward whitespace gaps
+**CV (`cv/<company>/<role-slug>/Travis_Brown_Resume.pdf`):**
+- [ ] Exactly 1 page (not 2)
+- [ ] No orphaned entry titles — an `\entry{}{}{}` title line must never sit alone at the bottom of the page with its bullets pushed past the page break. This is the most common failure.
+- [ ] Section headings (`\resumesection{}`) are not isolated at the bottom of the page with no bullets below
+- [ ] No awkward whitespace gaps, and no large empty gap at the bottom from `\vfill` (a sign content was cut too aggressively)
 
-**Cover letter (`cover_letters/cover_<company>_<role>.pdf`):**
+**Cover letter (`cover_letters/<company>/Travis_<Company>_Cover_Letter.pdf`):**
 - [ ] Exactly 1 page
 - [ ] Signature block visible, not cut off or pushed to a second page
-- [ ] Bullet list font matches surrounding body text (both should be Raleway-Medium)
+- [ ] No header block (name/contact/rule) at the top — just the date, then the salutation, per Travis's standing preference
+- [ ] Left-aligned text (`\raggedright`), not full-justified
 
 ### 5c. Iterate until clean
 
 If the layout has problems, edit the `.tex` files and recompile. Common fixes (see `05-cv-templates.md` and `06-cover-letter-templates.md` for full details):
 
-- **Orphaned CV entry title:** `\usepackage{needspace}` in preamble, then `\needspace{5\baselineskip}` immediately before the problematic `\cventry`
-- **CV spills to page 3 with only a trailing section:** `\enlargethispage{2-3\baselineskip}` before a late section
-- **Substantial content on page 3:** cut content using **relevance-weighted cutting** (see `05-cv-templates.md` → "Relevance-weighted cutting"). Score each candidate line by (a) relevance to THIS posting's keywords and responsibilities, (b) uniqueness (is it duplicated elsewhere?), (c) narrative load (does the cover letter depend on it?). Cut the lowest-total-score line first, regardless of section. Do NOT mechanically apply a static section-based priority order — an older-role bullet that hits posting keywords is worth more than a recent-role bullet that does not.
+- **Orphaned CV entry title:** `\usepackage{needspace}` in preamble, then `\needspace{5\baselineskip}` immediately before the problematic `\entry{}{}{}` block
+- **CV spills just barely onto a second page:** `\enlargethispage{2-3\baselineskip}` before `\end{document}` (or before the section that's spilling)
+- **Substantial content on a second page:** cut content using **relevance-weighted cutting** (see `05-cv-templates.md` → "Relevance-weighted cutting"). Score each candidate line by (a) relevance to THIS posting's keywords and responsibilities, (b) uniqueness (is it duplicated elsewhere?), (c) narrative load (does the cover letter depend on it?). Cut the lowest-total-score line first, regardless of section. Do NOT mechanically apply a static section-based priority order — an older-role bullet that hits posting keywords is worth more than a recent-role bullet that does not.
 - **Cover letter itemize breaks compile or uses wrong font:** close `\lettercontent{}` before the list, wrap the list in `{\raggedright\fontspec[Path = OpenFonts/fonts/raleway/]{Raleway-Medium}\fontsize{11pt}{13pt}\selectfont \begin{itemize}...\end{itemize}\par}`
 - **Cover letter spills to 2 pages:** trim using the same relevance-weighted logic. First cut: sentences that restate what a bullet already said. Second cut: a bullet that does not hit posting keywords. Last resort: a bullet that does hit posting keywords. Never reduce geometry or line spacing.
 
@@ -220,14 +233,14 @@ Do not proceed to Step 6 until both PDFs pass inspection.
 
 ### 5d. ATS & keyword verification (CV)
 
-An ATS parser reads the PDF's embedded **text layer**, not the rendered page — a CV that passed visual inspection can still extract as garbage (icon glyphs where the contact details should be, scrambled reading order in multi-column layouts). This step verifies what a parser actually sees. It applies to the **CV only**; cover letters rarely go through keyword screening.
+An ATS parser reads the PDF's embedded **text layer**, not the rendered page. This template is a plain single-column layout with no icon fonts, so it's inherently low-risk, but still verify what a parser actually sees. It applies to the **CV only**; cover letters rarely go through keyword screening.
 
 **Availability check:** run `pdftotext -v`. `pdftotext` (poppler) is an optional dependency, not part of TeX distributions. If it is missing, print a one-line warning that the mechanical parse check is skipped, do the keyword-coverage check (item 3 below) against your visual Read of the PDF instead, and note the degraded mode in the Step 6 report. Same graceful-skip pattern as the salary lookup.
 
 **1. Extract the text layer:**
 
 ```bash
-cd cv && pdftotext -layout main_<company>.pdf main_<company>.txt
+cd cv/<company>/<role-slug> && pdftotext -layout Travis_Brown_Resume.pdf Travis_Brown_Resume.txt
 ```
 
 Read the `.txt` file.
@@ -235,8 +248,8 @@ Read the `.txt` file.
 **2. Parseability checks** on the extracted text:
 
 - [ ] **Text extracted at all**, with no garbage runs: no `(cid:NNN)` markers, no `�` replacement characters, no stretches of missing text that are visible in the PDF
-- [ ] **Email and phone survive as literal text.** Icon fonts extract as glyph names (the stock template's contact line extracts as `MOBILE-ALT [+XX ...] • Envelope [your.email@...]`) — that noise is harmless, but the actual address and digits must be present. A contact detail carried only by an icon or a hyperlink target (like the `LinkedIn` link text) is invisible to an ATS; the email must be printed as text.
-- [ ] **Reading order matches the visual order** — section headings appear in the same sequence as on the page, and lines from different sections are not interleaved. The stock banking template is single-column and safe; custom templates registered via `/add-template` with sidebars or multi-column layouts are where this breaks.
+- [ ] **Email and phone survive as literal text.** The header prints email/phone/links directly via `\href{...}{visible text}`, with no icon glyphs — confirm both the email address and phone number appear verbatim in the extraction.
+- [ ] **Reading order matches the visual order** — section headings appear in the same sequence as on the page, and lines from different sections are not interleaved. This single-column template should always extract cleanly; if it doesn't, something broke in the compile, not the template design.
 - [ ] **Dates recognizable** — each role and degree has its years present in the extraction.
 
 Failures here are template-level problems: fix them in the `.tex` (e.g. print the email as text rather than icon-only), then re-run 5a–5c and re-extract. If a custom template's layout fundamentally scrambles extraction order, tell the user prominently — they may be trading ATS compatibility for looks.
@@ -249,7 +262,7 @@ Failures here are template-level problems: fix them in the `.tex` (e.g. print th
 
 - **covered** — the term appears (verbatim or trivial inflection).
 - **synonym-only** — the concept is present under a different term. If the posting's exact term is truthfully applicable per the profile, prefer the posting's term (ATS keyword matches are often literal).
-- **missing (have it)** — the profile shows the candidate genuinely has this skill but the CV never says it: add it where it fits naturally, preferring experience bullets (concrete evidence) over the profile statement, then re-run 5a–5c.
+- **missing (have it)** — the profile shows the candidate genuinely has this skill but the CV never says it: add it where it fits naturally, preferring experience bullets (concrete evidence) over the objective line, then re-run 5a–5c.
 - **missing (gap)** — a genuine gap: leave it missing. **Never stuff keywords.** This is the same honesty rule the reviewer follows — a gap gets acknowledged in the cover letter's framing, not hidden in the CV.
 
 **4. Clean up:** delete the extracted `.txt` file.
@@ -276,8 +289,8 @@ Summarize 3-5 key decisions made to tailor the application:
 
 ### Files Created
 List the files written:
-- `cv/main_<company>.tex`
-- `cover_letters/cover_<company>_<role>.tex`
+- `cv/<company>/<role-slug>/travis_resume_<company>_<role-slug>.tex`
+- `cover_letters/<company>/cover_<company>_<role>.tex`
 
 Tell the user: "Both files are ready for your review. Open them to check the final output before compiling."
 

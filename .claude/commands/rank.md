@@ -93,9 +93,9 @@ Ranked <N> new postings (<X> shortlisted, <Y> below threshold, <Z> expired/vetoe
 
 ### Shortlist
 
-| # | Score | Verdict | Title | Company | Location | Deadline | |
-|---|-------|---------|-------|---------|----------|----------|---|
-| 1 | 78 | Strong Fit | ... | ... | ... | ... | 🔥 |
+| # | Score | Verdict | Title | Company | Job ID / Req # | Location | Deadline | |
+|---|-------|---------|-------|---------|----------------|----------|----------|---|
+| 1 | 78 | Strong Fit | ... | ... | ... (the `seen_jobs.json` key, or "not stated" if none) | ... | ... | 🔥 |
 
 ### Why these ranked highest
 **1. <Title> at <Company> (78)** - [2-3 strength bullets and the honest gap, from the agent's findings]

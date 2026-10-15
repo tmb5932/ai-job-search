@@ -1,0 +1,89 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Cover Letter - Pratt & Whitney
+% Summer 2027 Embedded Software Engineering Intern, East Hartford CT
+% Plain XeLaTeX — matches simple resume style (Spectral font)
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\documentclass[11pt]{article}
+
+\usepackage[margin=0.75in, top=0.7in, bottom=0.7in]{geometry}
+\usepackage[hidelinks]{hyperref}
+\usepackage{parskip}
+\usepackage{fontspec}
+
+\setmainfont{Spectral}[
+  Path = ../../cv/fonts/,
+  UprightFont    = Spectral-Regular.ttf,
+  BoldFont       = Spectral-Bold.ttf,
+  ItalicFont     = Spectral-Italic.ttf,
+  BoldItalicFont = Spectral-BoldItalic.ttf
+]
+
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{14pt}
+\linespread{1.15}
+\raggedright
+
+% No hyphenation
+\hyphenpenalty=10000
+\exhyphenpenalty=10000
+
+\pagestyle{empty}
+\urlstyle{same}
+
+\begin{document}
+
+% ── DATE ─────────────────────────────────────────────────────────────────────
+\begin{flushright}
+  \today
+\end{flushright}
+
+% ── BODY ─────────────────────────────────────────────────────────────────────
+Dear Pratt \& Whitney Hiring Team,
+
+I'm applying for the Summer 2027 Embedded Software Engineering Internship
+on the Real-Time Embedded Systems team. I'm a Computer Science student at
+RIT in the combined bachelor's
+and master's program, with an expected graduation date of December 2027,
+and have a strong interest in firmware and embedded software. At GE
+Vernova, I built a full I/O subsystem from scratch in C on an STM32F7 for
+industrial radios. On the RIT Electric Vehicle Team, I'm the vehicle
+control unit (VCU) Software Lead, building real-time ThreadX firmware for
+our track motorcycle, including board-level fault handling and health
+monitoring across the vehicle's threads and CAN buses. In my free time I'm
+building an autonomous fixed-wing flight controller on an ESP32S3, with PID
+stabilization, sensor fusion, and GPS waypoint following validated across
+an 80-test SITL regression suite.
+
+What got me interested in Pratt \& Whitney specifically is that FADEC is a
+real-time control loop running directly between engine sensors and the
+actuators that respond to them, fuel flow, variable geometry, with
+essentially no room for delay. That's the kind of sensor-to-actuator
+control I like building, just at a bigger scale than a motorcycle or a
+model airplane. I build that same kind of loop into the VCU, reading
+sensor data off the CAN bus and driving the motor controller and
+contactors in real time.
+
+Real-time embedded C is where I spend most of my time. I've structured the
+VCU's ThreadX design with a timer-triggered control thread, a health
+monitoring thread, and interrupt-fed CAN queues protected by mutexes and
+event flags, and I debug at the hardware level regularly with a Saleae
+logic analyzer, an oscilloscope, and a J-Link Segger. I've built the kind
+of hardware-abstracting software layer this team works on at a smaller
+scale too, across SPI, I2C, UART, ADC, and PWM,
+building both the GE Vernova I/O subsystem and EVT's hardware-agnostic
+peripheral library, writing drivers directly from microcontroller
+datasheets and reference manuals. At Lockheed Martin, I
+also built a code-review automation tool that became a mandatory part of
+the team's merge request process, so I'm comfortable with the
+configuration-management and Agile-process side of embedded development
+too.
+
+I would welcome the opportunity to talk more about where I could
+contribute. Thank you for your consideration.
+
+Thanks,
+
+Travis Brown
+
+\end{document}

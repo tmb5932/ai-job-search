@@ -1,6 +1,6 @@
 # /add-template - Register a Custom CV or Cover Letter Template
 
-You are helping the user register their own LaTeX template with the AI Job Search framework. The framework ships with moderncv (banking style) for CVs and a custom `cover.cls` for cover letters. This command lets the user swap in their own template: store the template files, capture usage instructions (compile engine, fonts, style rules, page limits), verify the template compiles, and wire it into the `/apply` workflow so every future application uses it.
+You are helping the user register their own LaTeX template with the AI Job Search framework. The stock CV template in this fork is a plain XeLaTeX `article`-class resume using the Spectral font (`cv/travis_resume.tex`, documented in `05-cv-templates.md`); cover letters use a custom `cover.cls`. This command lets the user swap in their own template: store the template files, capture usage instructions (compile engine, fonts, style rules, page limits), verify the template compiles, and wire it into the `/apply` workflow so every future application uses it.
 
 `$ARGUMENTS` may contain a subcommand, a file path, or nothing.
 
@@ -57,7 +57,7 @@ Collect:
    - **Bundled font files** (`.ttf`/`.otf` shipped with the template): copy them into the template folder in Step 3 and record the relative `Path` used in `\fontspec` calls.
    - **System / TeX-distribution fonts**: record the font name and note that the user's machine must have it installed.
 4. **Style rules** - anything the drafter must preserve when filling the template: color scheme, section order, heading style, spacing conventions, bullet formatting, date format.
-5. **Page limit** - hard page count for the compiled PDF. Default: **2 pages** for a CV, **1 page** for a cover letter. `/apply`'s compile-and-inspect loop enforces this.
+5. **Page limit** - hard page count for the compiled PDF. Default: **1 page** for a CV, **1 page** for a cover letter (Travis is applying to US internships, where 1 page is standard for both). `/apply`'s compile-and-inspect loop enforces this.
 6. **Known pitfalls** (optional) - macros that break with certain content (like the stock template's `\lettercontent{}`/`itemize` interaction), characters that need escaping, sections that must not be reordered.
 
 ---
@@ -135,14 +135,14 @@ Insert (or replace, if one exists) this block immediately after the file's H1 ti
 > - **Compile with:** `<engine>` (not the engine named in the stock guidance below)
 > - **Fonts:** <font summary, including any Path note for bundled fonts>
 > - **Page limit:** exactly <N> page(s)
-> - **Output file:** unchanged (`cv/main_<company>.tex` / `cover_letters/cover_<company>_<role>.tex`); copy any class/font files the template needs into the output directory, or reference them by relative path
+> - **Output file:** unchanged (`cv/<company>/<role-slug>/travis_resume_<company>_<role-slug>.tex` / `cover_letters/cover_<company>_<role>.tex`); copy any class/font files the template needs into the output directory, or reference them by relative path
 <!-- END ACTIVE-TEMPLATE -->
 ```
 
 Rules:
 
 - Exactly **one** managed block per guidance file. Replace the whole block between the `BEGIN`/`END` markers when switching templates; never stack blocks.
-- **`--use default`**: remove the managed block entirely. The stock moderncv / cover.cls guidance below it is untouched and takes over again.
+- **`--use default`**: remove the managed block entirely. The stock Spectral-resume / cover.cls guidance below it is untouched and takes over again.
 - Do not modify anything outside the markers.
 
 ---
@@ -160,7 +160,7 @@ Present a summary:
 > Useful follow-ups:
 > - `/add-template --list` — see all registered templates
 > - `/add-template --use <other-name>` — switch templates
-> - `/add-template --use default` — go back to the stock <moderncv | cover.cls> template
+> - `/add-template --use default` — go back to the stock <Spectral resume | cover.cls> template
 
 ---
 

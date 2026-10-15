@@ -1,0 +1,92 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Cover Letter - Rendezvous Robotics
+% Summer 2027 Software Engineering Intern, Golden CO
+% Plain XeLaTeX — matches simple resume style (Spectral font)
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\documentclass[11pt]{article}
+
+\usepackage[margin=0.75in, top=0.7in, bottom=0.7in]{geometry}
+\usepackage[hidelinks]{hyperref}
+\usepackage{parskip}
+\usepackage{fontspec}
+
+\setmainfont{Spectral}[
+  Path = ../../cv/fonts/,
+  UprightFont    = Spectral-Regular.ttf,
+  BoldFont       = Spectral-Bold.ttf,
+  ItalicFont     = Spectral-Italic.ttf,
+  BoldItalicFont = Spectral-BoldItalic.ttf
+]
+
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{14pt}
+\linespread{1.15}
+\raggedright
+
+% No hyphenation
+\hyphenpenalty=10000
+\exhyphenpenalty=10000
+
+\pagestyle{empty}
+\urlstyle{same}
+
+\begin{document}
+
+% ── DATE ─────────────────────────────────────────────────────────────────────
+\begin{flushright}
+  \today
+\end{flushright}
+
+% ── BODY ─────────────────────────────────────────────────────────────────────
+Dear Rendezvous Robotics Hiring Team,
+
+I'm applying for the Summer 2027 Software Engineering Internship. I'm a
+Computer Science student at RIT in the combined bachelor's and master's
+program, with an expected graduation date of December 2027. At GE Vernova,
+I built a full I/O subsystem from scratch in C on an STM32F7 for
+industrial radios. On the RIT Electric Vehicle Team, I'm the vehicle
+control unit (VCU) Software Lead, building real-time ThreadX firmware for
+our track motorcycle. In my free time I'm building an autonomous
+fixed-wing flight controller on an ESP32S3, with PID stabilization, sensor
+fusion, and GPS waypoint following validated across an 80-test SITL
+regression suite.
+
+What got me interested in Rendezvous Robotics is that the tiles physically
+dock and reconfigure into something bigger than what fits inside a
+rocket's fairing. The part of the posting that stood out most is keeping
+communication between units working as the assembly itself changes shape
+or membership. On the VCU, I designed the CAN and CANopen message formats
+connecting it to the motor controller, battery management system,
+handlebar interface board, and low-voltage subsystem, and had to handle
+cases where a node drops off the bus or comes back online without taking
+the rest of the vehicle down with it. That's a smaller version of the same
+problem, a fixed set of devices with known roles. A flight assembly where
+units can join or leave entirely changes what the protocol has to
+guarantee, and figuring out how to handle that is genuinely interesting to
+me.
+
+I've also built the kind of tooling this role describes for ground
+station operations. At GE Vernova, I built a Python/Flask dashboard that
+polls and visualizes Modbus diagnostic data in real time, with historical
+trend data, as an internal engineering tool. I
+build things in simulation before I trust them on hardware, too. My
+flight controller project's SITL simulators for attitude and navigation
+logic are the clearest example.
+
+Real-time embedded C is where I spend most of my time. I've structured the
+VCU's ThreadX design with a timer-triggered control thread, a health
+monitoring thread, and interrupt-fed CAN queues protected by mutexes and
+event flags, and I debug at the hardware level regularly with a Saleae
+logic analyzer, an oscilloscope, and a J-Link Segger, including tracing a
+servo fault at GE Vernova back to a bad servo rather than the signal
+driving it.
+
+I would welcome the opportunity to talk more about where I could
+contribute. Thank you for your consideration.
+
+Thanks,
+
+Travis Brown
+
+\end{document}

@@ -1,0 +1,96 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Cover Letter - Qualcomm
+% Embedded Engineering Internship (Summer 2027)
+% Plain XeLaTeX — matches simple resume style (Spectral font)
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\documentclass[11pt]{article}
+
+\usepackage[margin=0.75in, top=0.7in, bottom=0.7in]{geometry}
+\usepackage[hidelinks]{hyperref}
+\usepackage{parskip}
+\usepackage{fontspec}
+
+\setmainfont{Spectral}[
+  Path = ../../cv/fonts/,
+  UprightFont    = Spectral-Regular.ttf,
+  BoldFont       = Spectral-Bold.ttf,
+  ItalicFont     = Spectral-Italic.ttf,
+  BoldItalicFont = Spectral-BoldItalic.ttf
+]
+
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{7pt}
+
+% No hyphenation
+\hyphenpenalty=10000
+\exhyphenpenalty=10000
+
+\pagestyle{empty}
+\urlstyle{same}
+
+\begin{document}
+
+% ── HEADER ───────────────────────────────────────────────────────────────────
+\begin{center}
+  {\LARGE\textbf{Travis Brown}}\\[3pt]
+  \href{mailto:browntravis760@gmail.com}{browntravis760@gmail.com} \textbullet\
+  518-796-8703 \textbullet\
+  \href{https://www.linkedin.com/in/tbrown5932}{linkedin.com/in/tbrown5932}
+\end{center}
+
+\vspace{2pt}
+\noindent\rule{\linewidth}{0.5pt}
+\vspace{10pt}
+
+% ── DATE ─────────────────────────────────────────────────────────────────────
+\begin{flushright}
+  \today
+\end{flushright}
+
+\vspace{4pt}
+
+% ── BODY ─────────────────────────────────────────────────────────────────────
+Dear Qualcomm Recruiting Team,
+
+I am applying for the Embedded Engineering Internship for Summer 2027. I'm a
+Computer Science student at RIT in the combined bachelor's and master's
+program, with an expected graduation date of December 2027, and most
+of what I do outside of class is embedded firmware for real physical systems.
+On the RIT Electric Vehicle Team, I built the CAN/CANopen communication layer
+between our motorcycle's VCU, motor controller, power subsystem, and BMS from
+scratch, and wrote the C++ firmware running on that VCU. At GE Vernova, I
+built a full I/O subsystem from scratch in C on an STM32F7 for industrial
+radios, and in my free time I'm building an autonomous fixed-wing flight
+controller on an ESP32S3 with FreeRTOS and PID stabilization.
+
+I understand this internship places candidates across several tracks based on
+background, so I want to be upfront about where my background points:
+automotive. Vehicle systems firmware is already a big part of what I do
+outside of class, and Snapdragon Digital Chassis, running the compute stack
+behind cockpit, ADAS, and connectivity for automakers worldwide, is exactly
+the larger-scale version of that work I want to grow into.
+
+A few specifics: I've written hard real-time firmware in both ThreadX and
+FreeRTOS, including a 300\,Hz control loop on the EVT VCU running across dual
+CAN buses at the same time as board-level fault handling, which is a small
+version of the mixed-criticality problem Snapdragon Ride Flex is solving by
+putting cockpit, ADAS, and AI workloads on one chip. I designed the VCU's
+CANopen object dictionary and CAN message formats myself. For low-level
+interfaces, I have production firmware
+experience with SPI, I2C, UART, ADC, and PWM, and I've written device drivers
+including a GNSS driver and a custom SPI display driver. I also debug at the
+hardware level regularly, using a Saleae logic analyzer, oscilloscope, and
+J-Link Segger to trace firmware issues back to root cause rather than
+guessing.
+
+I would welcome the opportunity to talk more about where I could contribute.
+Thank you for your consideration.
+
+\vspace{16pt}
+Kind regards,
+
+\vspace{20pt}
+Travis Brown
+
+\end{document}

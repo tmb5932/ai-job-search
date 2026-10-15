@@ -1,0 +1,1763 @@
+{
+  "seen": {
+    "4429410998": {
+      "title": "Intern - Embedded Software Engineer (Fall 2026)",
+      "company": "Persistent Systems, LLC",
+      "url": "https://www.linkedin.com/jobs/view/4429410998",
+      "first_seen": "2026-07-15",
+      "fit": "medium",
+      "status": "skipped",
+      "note": "Fall 2026 \u2014 wrong timing"
+    },
+    "4432266506": {
+      "title": "Fall 2026 Co-Op - Embedded Software AI Intern",
+      "company": "Cirrus Logic",
+      "url": "https://www.linkedin.com/jobs/view/4432266506",
+      "first_seen": "2026-07-15",
+      "fit": "low",
+      "status": "skipped",
+      "note": "Fall 2026 \u2014 wrong timing"
+    },
+    "4429142743": {
+      "title": "Internship, Embedded System Software Engineer, Energy Engineering (Fall 2026)",
+      "company": "Tesla",
+      "url": "https://www.linkedin.com/jobs/view/4429142743",
+      "first_seen": "2026-07-15",
+      "fit": "high",
+      "status": "skipped",
+      "note": "Fall 2026 \u2014 wrong timing. Watch Tesla for Summer 2027 posting."
+    },
+    "4407061266": {
+      "title": "Flight Software Intern (Fall 2026)",
+      "company": "Astranis Space Technologies",
+      "url": "https://www.linkedin.com/jobs/view/4407061266",
+      "first_seen": "2026-07-15",
+      "fit": "high",
+      "status": "skipped",
+      "note": "Fall 2026 \u2014 wrong timing. Watch Astranis for Summer 2027 posting."
+    },
+    "4423182430": {
+      "title": "Spring 2027 Avionics Software Internship - Undergraduate",
+      "company": "Blue Origin",
+      "url": "https://www.linkedin.com/jobs/view/4423182430",
+      "first_seen": "2026-07-15",
+      "fit": "high",
+      "status": "skipped",
+      "note": "Spring 2027, closed 07/15/2026. Watch Blue Origin for Summer 2027 posting."
+    },
+    "4423157348": {
+      "title": "Spring 2027 Avionics Software Internship - Graduate",
+      "company": "Blue Origin",
+      "url": "https://www.linkedin.com/jobs/view/4423157348",
+      "first_seen": "2026-07-15",
+      "fit": "low",
+      "status": "skipped",
+      "note": "Graduate level \u2014 not applicable"
+    },
+    "4429711682": {
+      "title": "Internship, Embedded Software Engineer, Steering, Chassis Systems (Fall 2026)",
+      "company": "Tesla",
+      "url": "https://www.linkedin.com/jobs/view/4429711682",
+      "first_seen": "2026-07-15",
+      "fit": "high",
+      "status": "skipped",
+      "note": "Fall 2026 \u2014 wrong timing. Watch Tesla Chassis for Summer 2027 posting."
+    },
+    "4423164090": {
+      "title": "Spring 2027 Avionics Software Internship - Graduate (Denver)",
+      "company": "Blue Origin",
+      "url": "https://www.linkedin.com/jobs/view/4423164090",
+      "first_seen": "2026-07-15",
+      "fit": "low",
+      "status": "skipped",
+      "note": "Graduate level \u2014 not applicable"
+    },
+    "4423149490": {
+      "title": "Spring 2027 Avionics Software Internship - Graduate (Seattle)",
+      "company": "Blue Origin",
+      "url": "https://www.linkedin.com/jobs/view/4423149490",
+      "first_seen": "2026-07-15",
+      "fit": "low",
+      "status": "skipped",
+      "note": "Graduate level \u2014 not applicable"
+    },
+    "4424993034": {
+      "title": "Embedded Software Engineer Intern (Fall 2026)",
+      "company": "Zipline",
+      "url": "https://www.linkedin.com/jobs/view/4424993034",
+      "first_seen": "2026-07-15",
+      "fit": "high",
+      "status": "skipped",
+      "note": "Fall 2026 \u2014 wrong timing. Watch Zipline for Summer 2027 posting \u2014 top target."
+    },
+    "4435986003": {
+      "title": "Embedded Systems Engineering Intern",
+      "company": "DMR Technologies",
+      "url": "https://www.linkedin.com/jobs/view/4435986003",
+      "first_seen": "2026-07-15",
+      "fit": "high",
+      "status": "skipped",
+      "note": "Timing unclear. Small drone company Lafayette LA. Re-evaluate when Summer 2027 search begins."
+    },
+    "4390312913": {
+      "title": "Internship - Firmware Engineer",
+      "company": "Infineon Technologies",
+      "url": "https://www.linkedin.com/jobs/view/4390312913",
+      "first_seen": "2026-07-15",
+      "fit": "medium",
+      "status": "skipped",
+      "note": "Timing unclear \u2014 semiconductor, not priority sector"
+    },
+    "4438502801": {
+      "title": "Firmware / Software Engineering Intern",
+      "company": "AMETEK",
+      "url": "https://www.linkedin.com/jobs/view/4438502801",
+      "first_seen": "2026-07-15",
+      "fit": "medium",
+      "status": "skipped",
+      "note": "Timing unclear \u2014 check sector fit when Summer 2027 search begins"
+    },
+    "4439341613": {
+      "title": "New College Grad, SSD Firmware Engineer",
+      "company": "Sandisk",
+      "url": "https://www.linkedin.com/jobs/view/4439341613",
+      "first_seen": "2026-07-15",
+      "fit": "low",
+      "status": "skipped",
+      "note": "Full-time, storage sector"
+    },
+    "4325372891": {
+      "title": "GPU/AI Application System Software Engineer Intern",
+      "company": "TikTok",
+      "url": "https://www.linkedin.com/jobs/view/4325372891",
+      "first_seen": "2026-07-15",
+      "fit": "low",
+      "status": "skipped"
+    },
+    "4429411331": {
+      "title": "Software Engineer - Backend (Fall 26' Intern)",
+      "company": "Delsys",
+      "url": "https://www.linkedin.com/jobs/view/4429411331",
+      "first_seen": "2026-07-15",
+      "fit": "low",
+      "status": "skipped"
+    },
+    "4351597305": {
+      "title": "General Hire Software Engineer Intern",
+      "company": "TikTok",
+      "url": "https://www.linkedin.com/jobs/view/4351597305",
+      "first_seen": "2026-07-15",
+      "fit": "low",
+      "status": "skipped"
+    },
+    "4423350635": {
+      "title": "Software Engineer, New Grad",
+      "company": "Authorium",
+      "url": "https://www.linkedin.com/jobs/view/4423350635",
+      "first_seen": "2026-07-15",
+      "fit": "low",
+      "status": "skipped"
+    },
+    "4435326472": {
+      "title": "Internship, Machine Learning Engineer, Factory Software (Fall 2026)",
+      "company": "Tesla",
+      "url": "https://www.linkedin.com/jobs/view/4435326472",
+      "first_seen": "2026-07-15",
+      "fit": "low",
+      "status": "skipped"
+    },
+    "4438177487": {
+      "title": "Junior Embedded Systems Developer",
+      "company": "Battelle",
+      "url": "https://www.linkedin.com/jobs/view/4438177487",
+      "first_seen": "2026-07-15",
+      "fit": "low",
+      "status": "skipped",
+      "note": "Full-time entry level"
+    },
+    "4438257367": {
+      "title": "Entry Level Embedded Engineer",
+      "company": "DMC Engineering",
+      "url": "https://www.linkedin.com/jobs/view/4438257367",
+      "first_seen": "2026-07-15",
+      "fit": "low",
+      "status": "skipped"
+    },
+    "4435899780": {
+      "title": "Firmware Engineer II",
+      "company": "MGC Diagnostics",
+      "url": "https://www.linkedin.com/jobs/view/4435899780",
+      "first_seen": "2026-07-15",
+      "fit": "low",
+      "status": "skipped"
+    },
+    "4438242868": {
+      "title": "Entry Level Embedded Engineer (Chicago)",
+      "company": "DMC Engineering",
+      "url": "https://www.linkedin.com/jobs/view/4438242868",
+      "first_seen": "2026-07-15",
+      "fit": "low",
+      "status": "skipped"
+    },
+    "4419725768": {
+      "title": "Embedded Systems Engineer 3",
+      "company": "Lam Research",
+      "url": "https://www.linkedin.com/jobs/view/4419725768",
+      "first_seen": "2026-07-15",
+      "fit": "low",
+      "status": "skipped"
+    },
+    "4412432292": {
+      "title": "Interconnect Firmware Engineer",
+      "company": "AMD",
+      "url": "https://www.linkedin.com/jobs/view/4412432292",
+      "first_seen": "2026-07-15",
+      "fit": "low",
+      "status": "skipped"
+    },
+    "4436231185": {
+      "title": "Firmware Engineer",
+      "company": "Metasys Technologies",
+      "url": "https://www.linkedin.com/jobs/view/4436231185",
+      "first_seen": "2026-07-15",
+      "fit": "low",
+      "status": "skipped"
+    },
+    "4440569441": {
+      "title": "Embedded Software Engineer",
+      "company": "Tata Technologies",
+      "url": "https://www.linkedin.com/jobs/view/4440569441",
+      "first_seen": "2026-07-15",
+      "fit": "low",
+      "status": "skipped"
+    },
+    "4455780391": {
+      "title": "Long Range Platform Embedded Firmware Intern (Summer 2027)",
+      "company": "Zipline",
+      "url": "https://www.linkedin.com/jobs/view/4455780391",
+      "first_seen": "2026-08-26",
+      "fit": "high",
+      "status": "applied",
+      "applied_date": "2026-09-13",
+      "favorited": true,
+      "note": "Applied 2026-09-13. Cover letter: cover_letters/zipline_long_range/cover_zipline_firmware.tex",
+      "rank_score": 92,
+      "rank_verdict": "Strong Fit",
+      "rank_date": "2026-08-30"
+    },
+    "4459610865": {
+      "title": "Embedded Software Engineer Intern (Spring 2027)",
+      "company": "Zipline",
+      "url": "https://www.linkedin.com/jobs/view/4459610865",
+      "first_seen": "2026-08-26",
+      "fit": "high",
+      "status": "skipped",
+      "note": "Spring 2027 hard-excluded per user preference (2026-08-26) \u2014 user cannot do Spring 2027 at all. Zipline Summer 2027 role (4455780391) is favorited instead."
+    },
+    "4459048835": {
+      "title": "Embedded Software Engineer Intern (Spring 2027)",
+      "company": "Zipline",
+      "url": "https://www.linkedin.com/jobs/view/4459048835",
+      "first_seen": "2026-08-26",
+      "fit": "high",
+      "status": "skipped",
+      "note": "Duplicate posting of 4459610865; Spring 2027 hard-excluded"
+    },
+    "4457384373": {
+      "title": "Embedded Controls Intern (Spring)",
+      "company": "H3X Technologies",
+      "url": "https://www.linkedin.com/jobs/view/4457384373",
+      "first_seen": "2026-08-26",
+      "fit": "high",
+      "status": "skipped",
+      "note": "Spring 2027 hard-excluded per user preference (2026-08-26). Company favorited \u2014 watch for a Summer/Fall 2027 opening (posting mentions future Summer roles)."
+    },
+    "4455239628": {
+      "title": "Engines Engineering Intern \u2013 Computer or Software Engineering \u2013 US \u2013 Summer 2027",
+      "company": "GE Aerospace",
+      "url": "https://www.linkedin.com/jobs/view/4455239628",
+      "first_seen": "2026-08-26",
+      "fit": "medium",
+      "status": "ranked",
+      "note": "Pay starts at $20/hr, Cincinnati OH. COL-adjusted threshold for Cincinnati is ~$27/hr \u2014 $20/hr is below that. Pay is a meaningful gap.",
+      "rank_score": 62,
+      "rank_verdict": "Good Fit",
+      "rank_date": "2026-08-30"
+    },
+    "4458544300": {
+      "title": "2027 Software Engineering Summer Internship",
+      "company": "Advanced Space",
+      "url": "https://www.linkedin.com/jobs/view/4458544300",
+      "first_seen": "2026-08-26",
+      "fit": "medium",
+      "status": "ranked",
+      "rank_score": 55,
+      "rank_verdict": "Moderate Fit",
+      "rank_date": "2026-08-30"
+    },
+    "4459085098": {
+      "title": "Embedded Software Engineering Intern 2027",
+      "company": "Verkada",
+      "url": "https://www.linkedin.com/jobs/view/4459085098",
+      "first_seen": "2026-08-26",
+      "fit": "medium",
+      "status": "ranked",
+      "note": "HARD ELIGIBILITY RISK: requires grad by June 2027; Travis graduates Dec 2027 \u2014 verify before applying. Pay $55-65/hr, San Mateo CA \u2014 COL-adjusted threshold for Bay Area is ~$57/hr; $55-65 range is borderline/close to threshold (floor slightly below, top above). Also: embedded Linux/Yocto gap (Travis is bare-metal/RTOS).",
+      "rank_score": 61,
+      "rank_verdict": "Good Fit",
+      "rank_date": "2026-08-30"
+    },
+    "4456197391_group": {
+      "title": "Intern (A/B/C/D), Software Engineer \u2014 multiple locations",
+      "company": "L3Harris Technologies",
+      "url": "https://www.linkedin.com/jobs/view/4456197391",
+      "first_seen": "2026-08-26",
+      "fit": "high",
+      "status": "applied",
+      "applied_date": "2026-09-15",
+      "note": "Applied 2026-09-15. Season unverified \u2014 confirm Summer/Fall 2027 with recruiter. Resume: cv/l3harris/Travis_Brown_Resume.pdf.",
+      "rank_score": 77,
+      "rank_verdict": "Strong Fit",
+      "rank_date": "2026-08-30"
+    },
+    "4426871653": {
+      "title": "Systems Software Engineering Intern \u2013 Embedded Systems",
+      "company": "BAE Systems, Inc.",
+      "url": "https://www.linkedin.com/jobs/view/4426871653",
+      "first_seen": "2026-08-26",
+      "fit": "high",
+      "status": "applied",
+      "applied_date": "2026-09-15",
+      "note": "Applied 2026-09-15. Huntsville, AL. Defense, Secret clearance eligibility required. Resume: cv/bae_systems/Travis_Brown_Resume.pdf.",
+      "rank_score": 81,
+      "rank_verdict": "Strong Fit",
+      "rank_date": "2026-08-30"
+    },
+    "4453866540": {
+      "title": "Embedded Software Engineering Intern",
+      "company": "E-Space",
+      "url": "https://www.linkedin.com/jobs/view/4453866540",
+      "first_seen": "2026-08-26",
+      "fit": "high",
+      "status": "skipped",
+      "note": "Skipped \u2014 listed as part-time. Per deal-breaker rule (added 2026-09-14), part-time internships are automatically rejected. Excellent technical fit otherwise (Zephyr RTOS, STM32/ESP32, MQTT, logic analyzer).",
+      "rank_score": 84,
+      "rank_verdict": "Strong Fit",
+      "rank_date": "2026-08-30"
+    },
+    "4375807812": {
+      "title": "Intern - Embedded Software, System, and Test Engineer - 2026",
+      "company": "Motorola Solutions (Silvus Technologies)",
+      "url": "https://www.linkedin.com/jobs/view/4375807812",
+      "first_seen": "2026-08-26",
+      "fit": "high",
+      "status": "skipped",
+      "note": "Requested by user (defense-adjacent). Embedded firmware for tactical MANET radios, DARPA-rooted, FPGA/ARM, US-citizen-only (government contract). Pay $28.60-$33.80/hr (bachelor's) in Irvine, CA. \u26a0\ufe0f PAY BELOW COL THRESHOLD: Irvine CA equivalent threshold is ~$48/hr \u2014 $28-34/hr is significantly below Rochester-equivalent pay. Title's '2026' is likely the posting/req-creation year, not a stated internship term \u2014 season unverified. [2026-09-20: User declined after /apply evaluation \u2014 domain overlaps too much with current GE Vernova radio-firmware work; wants breadth instead. Not a rejection of the company/technical fit itself.]",
+      "rank_score": 85,
+      "rank_verdict": "Strong Fit",
+      "rank_date": "2026-09-20"
+    },
+    "4448778869": {
+      "title": "Embedded Software Engineer Intern",
+      "company": "Leonardo DRS",
+      "url": "https://www.linkedin.com/jobs/view/4448778869",
+      "first_seen": "2026-08-26",
+      "fit": "high",
+      "status": "skipped",
+      "note": "Explicitly Summer 2026 \u2014 wrong cycle (overlaps current GE Vernova co-op). Defense contractor, strong fit otherwise \u2014 watch for a Summer/Fall 2027 posting."
+    },
+    "4458531787": {
+      "title": "Software Engineer Intern",
+      "company": "Garmin",
+      "url": "https://www.linkedin.com/jobs/view/4458531787",
+      "first_seen": "2026-08-26",
+      "fit": "medium",
+      "status": "ranked",
+      "note": "Summer 2027 explicit. Olathe KS (Garmin aviation HQ). Embedded SW is one team option among DevOps/Mobile/Web \u2014 placement not guaranteed. Pay not listed. Travis's embedded differentiators not explicitly required. GPA 3.96 well above 3.5 preference.",
+      "rank_score": 68,
+      "rank_verdict": "Good Fit",
+      "rank_date": "2026-08-30"
+    },
+    "4455474236": {
+      "title": "NVIDIA 2027 Internships: Systems Software Engineering",
+      "company": "NVIDIA",
+      "url": "https://www.linkedin.com/jobs/view/4455474236",
+      "first_seen": "2026-08-26",
+      "fit": "low",
+      "status": "skipped",
+      "note": "Not embedded/hardware-focused, not a target sector \u2014 logged for completeness, not presented"
+    },
+    "4436420700": {
+      "title": "Robotics Software Intern \u2013 Real-Time Controls",
+      "company": "Apptronik",
+      "url": "https://www.linkedin.com/jobs/view/4436420700",
+      "first_seen": "2026-08-26",
+      "fit": "high",
+      "status": "skipped",
+      "note": "Timing unclear, listed as 'direct hire.' Strong fit: real-time C++ controls for humanoid robot. Re-evaluate Oct 2026+."
+    },
+    "4416700269": {
+      "title": "Embedded Software Engineer Intern, Implant Embedded Systems",
+      "company": "Neuralink",
+      "url": "https://www.linkedin.com/jobs/view/4416700269",
+      "first_seen": "2026-08-26",
+      "fit": "medium",
+      "status": "skipped",
+      "note": "Timing unclear, requires 2+ yrs embedded exp (borderline). Outside stated target sectors but strong hands-on-hardware alignment. Re-evaluate Oct 2026+."
+    },
+    "4416595271": {
+      "title": "Embedded Software Engineer Intern, Implant Embedded Systems",
+      "company": "Neuralink",
+      "url": "https://www.linkedin.com/jobs/view/4416595271",
+      "first_seen": "2026-08-26",
+      "fit": "medium",
+      "status": "skipped",
+      "note": "Duplicate posting of 4416700269 (San Francisco, CA)"
+    },
+    "4416594316": {
+      "title": "Embedded Software Engineer Intern, Implant Embedded Systems",
+      "company": "Neuralink",
+      "url": "https://www.linkedin.com/jobs/view/4416594316",
+      "first_seen": "2026-08-26",
+      "fit": "medium",
+      "status": "skipped",
+      "note": "Duplicate posting of 4416700269 (South San Francisco, CA)"
+    },
+    "4456727484": {
+      "title": "Internship - Embedded Systems Engineer",
+      "company": "Infineon Technologies",
+      "url": "https://www.linkedin.com/jobs/view/4456727484",
+      "first_seen": "2026-08-26",
+      "fit": "medium",
+      "status": "skipped",
+      "note": "Timing unclear \u2014 semiconductor, not priority sector (Austin, TX)"
+    },
+    "4455113198": {
+      "title": "Internship - Embedded Systems Engineer",
+      "company": "Infineon Technologies",
+      "url": "https://www.linkedin.com/jobs/view/4455113198",
+      "first_seen": "2026-08-26",
+      "fit": "medium",
+      "status": "skipped",
+      "note": "Timing unclear \u2014 semiconductor, not priority sector (San Jose, CA)"
+    },
+    "4451703905": {
+      "title": "Intern Firmware Engineering",
+      "company": "Generac",
+      "url": "https://www.linkedin.com/jobs/view/4451703905",
+      "first_seen": "2026-08-26",
+      "fit": "medium",
+      "status": "skipped",
+      "note": "Timing unclear \u2014 consumer power/generators, adjacent to GE Vernova energy background. Re-evaluate Oct 2026+."
+    },
+    "4456564382": {
+      "title": "Firmware Developer Intern - Poughkeepsie - 2027",
+      "company": "IBM",
+      "url": "https://www.linkedin.com/jobs/view/4456564382",
+      "first_seen": "2026-08-26",
+      "fit": "medium",
+      "status": "skipped",
+      "note": "Timing unclear despite '2027' in title \u2014 no explicit season. Not priority sector but firmware skill match."
+    },
+    "4445990981": {
+      "title": "Software Algorithm Embedded Intern",
+      "company": "STMicroelectronics",
+      "url": "https://www.linkedin.com/jobs/view/4445990981",
+      "first_seen": "2026-08-26",
+      "fit": "medium",
+      "status": "skipped",
+      "note": "Timing unclear \u2014 semiconductor, not priority sector"
+    },
+    "4457282449": {
+      "title": "Phone as a Key Software Engineering - Intern",
+      "company": "Bosch USA",
+      "url": "https://www.linkedin.com/jobs/view/4457282449",
+      "first_seen": "2026-08-26",
+      "fit": "medium",
+      "status": "skipped",
+      "note": "Timing unclear \u2014 automotive (priority sector) but appears to be mobile/app software, not embedded firmware"
+    },
+    "4456984053": {
+      "title": "Intern-Software Engineer Fall 2026",
+      "company": "North Atlantic Industries",
+      "url": "https://www.linkedin.com/jobs/view/4456984053",
+      "first_seen": "2026-08-26",
+      "fit": "medium",
+      "status": "skipped",
+      "note": "Fall 2026 \u2014 wrong timing"
+    },
+    "4455249547": {
+      "title": "Engines Engineering Co-op \u2013 Computer or Software Engineering \u2013 US \u2013 Fall 2027",
+      "company": "GE Aerospace",
+      "url": "https://www.linkedin.com/jobs/view/4455249547",
+      "first_seen": "2026-08-26",
+      "fit": "low",
+      "status": "skipped",
+      "note": "Ineligible \u2014 requires graduation on/after July 2028; Travis graduates Dec 2027. Fall 2027 timing itself is fine, this is a hard eligibility gap."
+    },
+    "4440900021": {
+      "title": "Embedded Software Engineer - Power Systems",
+      "company": "Zoox",
+      "url": "https://www.linkedin.com/jobs/view/4440900021",
+      "first_seen": "2026-08-26",
+      "fit": "low",
+      "status": "skipped",
+      "note": "Full-time \u2014 not an internship"
+    },
+    "4454165531": {
+      "title": "Embedded Firmware Engineer",
+      "company": "SERES AUTO_USA",
+      "url": "https://www.linkedin.com/jobs/view/4454165531",
+      "first_seen": "2026-08-26",
+      "fit": "low",
+      "status": "skipped",
+      "note": "Full-time \u2014 not an internship"
+    },
+    "4454559588": {
+      "title": "Firmware Engineer (Bare-Metal / RTOS)",
+      "company": "Harbinger",
+      "url": "https://www.linkedin.com/jobs/view/4454559588",
+      "first_seen": "2026-08-26",
+      "fit": "low",
+      "status": "skipped",
+      "note": "Full-time \u2014 not an internship"
+    },
+    "4434693182": {
+      "title": "Embedded Engineer",
+      "company": "Eka Robotics",
+      "url": "https://www.linkedin.com/jobs/view/4434693182",
+      "first_seen": "2026-08-26",
+      "fit": "low",
+      "status": "skipped",
+      "note": "Full-time \u2014 not an internship"
+    },
+    "4454298919": {
+      "title": "Embedded Systems Engineer",
+      "company": "Terranova",
+      "url": "https://www.linkedin.com/jobs/view/4454298919",
+      "first_seen": "2026-08-26",
+      "fit": "low",
+      "status": "skipped",
+      "note": "Full-time \u2014 not an internship"
+    },
+    "4447186563": {
+      "title": "Embedded Systems Engineer II",
+      "company": "BioLite",
+      "url": "https://www.linkedin.com/jobs/view/4447186563",
+      "first_seen": "2026-08-26",
+      "fit": "low",
+      "status": "skipped",
+      "note": "Full-time \u2014 not an internship"
+    },
+    "4455499422": {
+      "title": "Embedded Systems Engineer (US)",
+      "company": "Siemens Energy",
+      "url": "https://www.linkedin.com/jobs/view/4455499422",
+      "first_seen": "2026-08-26",
+      "fit": "low",
+      "status": "skipped",
+      "note": "Full-time \u2014 not an internship"
+    },
+    "4454409084": {
+      "title": "R&D Engineer",
+      "company": "ABB E-mobility",
+      "url": "https://www.linkedin.com/jobs/view/4454409084",
+      "first_seen": "2026-08-26",
+      "fit": "low",
+      "status": "skipped",
+      "note": "Full-time \u2014 not an internship"
+    },
+    "4448378397": {
+      "title": "Embedded Systems Engineer II",
+      "company": "EOTECH",
+      "url": "https://www.linkedin.com/jobs/view/4448378397",
+      "first_seen": "2026-08-26",
+      "fit": "low",
+      "status": "skipped",
+      "note": "Full-time \u2014 not an internship"
+    },
+    "4444262667": {
+      "title": "Embedded Software Engineer",
+      "company": "Rivian and Volkswagen Group Technologies",
+      "url": "https://www.linkedin.com/jobs/view/4444262667",
+      "first_seen": "2026-08-26",
+      "fit": "low",
+      "status": "skipped",
+      "note": "Full-time \u2014 not an internship"
+    },
+    "4454129481": {
+      "title": "Embedded Systems Engineer",
+      "company": "King Technology, Inc.",
+      "url": "https://www.linkedin.com/jobs/view/4454129481",
+      "first_seen": "2026-08-26",
+      "fit": "low",
+      "status": "skipped",
+      "note": "Full-time \u2014 not an internship"
+    },
+    "4425325466": {
+      "title": "Firmware Engineer I",
+      "company": "Firefly Aerospace",
+      "url": "https://www.linkedin.com/jobs/view/4425325466",
+      "first_seen": "2026-08-26",
+      "fit": "low",
+      "status": "skipped",
+      "note": "Full-time \u2014 not an internship"
+    },
+    "4456767584": {
+      "title": "Embedded Software Engineer",
+      "company": "Impulse Space",
+      "url": "https://www.linkedin.com/jobs/view/4456767584",
+      "first_seen": "2026-08-26",
+      "fit": "low",
+      "status": "skipped",
+      "note": "Full-time \u2014 not an internship"
+    },
+    "4392678384": {
+      "title": "Embedded Software Engineer (Aerospace)",
+      "company": "Empirical Systems Aerospace, Inc. (ESAero)",
+      "url": "https://www.linkedin.com/jobs/view/4392678384",
+      "first_seen": "2026-08-26",
+      "fit": "low",
+      "status": "skipped",
+      "note": "Full-time \u2014 not an internship"
+    },
+    "4444724090": {
+      "title": "Firmware Engineer I-II",
+      "company": "Antares",
+      "url": "https://www.linkedin.com/jobs/view/4444724090",
+      "first_seen": "2026-08-26",
+      "fit": "low",
+      "status": "skipped",
+      "note": "Full-time \u2014 not an internship"
+    },
+    "4445779266": {
+      "title": "Embedded Software Developer - Robotics (US Citizenship Required)",
+      "company": "Teledyne FLIR",
+      "url": "https://www.linkedin.com/jobs/view/4445779266",
+      "first_seen": "2026-08-26",
+      "fit": "low",
+      "status": "skipped",
+      "note": "Full-time \u2014 not an internship"
+    },
+    "4456379894": {
+      "title": "Embedded Software Engineer - UAS (Aerospace Division)",
+      "company": "Systems Technology, Inc. (STI)",
+      "url": "https://www.linkedin.com/jobs/view/4456379894",
+      "first_seen": "2026-08-26",
+      "fit": "low",
+      "status": "skipped",
+      "note": "Full-time \u2014 not an internship"
+    },
+    "4447257467": {
+      "title": "Embedded Software Engineer I",
+      "company": "Keurig Dr Pepper Inc.",
+      "url": "https://www.linkedin.com/jobs/view/4447257467",
+      "first_seen": "2026-08-26",
+      "fit": "low",
+      "status": "skipped",
+      "note": "Full-time \u2014 not an internship, consumer sector"
+    },
+    "4457723859": {
+      "title": "Embedded Engineering Intern (Summer 2027)",
+      "company": "Zipline",
+      "url": "https://www.linkedin.com/jobs/view/4457723859",
+      "first_seen": "2026-08-30",
+      "fit": "high",
+      "status": "applied",
+      "applied_date": "2026-09-14",
+      "note": "Applied 2026-09-14. Cover letter: cover_letters/zipline_embedded/cover_zipline_embedded.tex. $54/hr + housing stipend + relocation. Technical questions: LTC2944 B[5:3]=03, SCHED_FIFO priority inversion. Text box: VCU + flight controller.",
+      "rank_score": 89,
+      "rank_verdict": "Strong Fit",
+      "rank_date": "2026-08-30"
+    },
+    "spacex_8621757002": {
+      "title": "Summer 2027 Software Engineering Internship/Co-op",
+      "company": "SpaceX",
+      "url": "https://job-boards.greenhouse.io/spacex/jobs/8621757002",
+      "first_seen": "2026-08-30",
+      "fit": "high",
+      "status": "applied",
+      "note": "$34/hr (jr/sr), 8 locations, ITAR US required. General posting \u2014 team placement (flight SW, embedded firmware, Starshield, Starlink firmware, guidance & control) not guaranteed. Travis's embedded differentiators not explicitly tested in screening. GPA 3.96 + GE Vernova deployment experience checks both preferred boxes. | 2026-09-24: Applied. Pay $34/hr (jr/sr tier), best at TX/FL sites, falls short at CA/WA sites. No cover letter. Base resume unchanged.",
+      "rank_score": 71,
+      "rank_verdict": "Good Fit",
+      "rank_date": "2026-08-30"
+    },
+    "rtx_el_segundo_radar_2027": {
+      "title": "Embedded Software Intern \u2013 Gen 4 Tactical Airborne Radar (Summer 2027)",
+      "company": "Raytheon/RTX",
+      "url": "https://careers.rtx.com",
+      "first_seen": "2026-08-30",
+      "fit": "high",
+      "status": "expired",
+      "note": "El Segundo, CA. Real-time embedded C/C++ for Gen 4 Tactical Airborne Radar. Pay ~$27-43/hr. US citizenship required. \u26a0\ufe0f PAY BELOW COL THRESHOLD: El Segundo/LA area threshold ~$46.50/hr \u2014 even the top of the $27-43/hr range is below equivalent. Strong technical fit but needs pay verification. Search careers.rtx.com directly for current URL. [2026-09-20: WebFetch blocked (403/JS-rendered) - could not score via /rank, needs manual browser check, NOT marked expired since not verified closed] [2026-09-20: User searched careers.rtx.com directly and could not find this posting at all \u2014 treating as no longer available, not just a WebFetch failure.]"
+    },
+    "northrop_R10245255": {
+      "title": "2027 Intern Software Engineer",
+      "company": "Northrop Grumman",
+      "url": "https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-Florida-Melbourne/XMLNAME-2027-Intern-Software-Engineer_R10245255",
+      "first_seen": "2026-08-30",
+      "fit": "medium",
+      "status": "ranked",
+      "note": "2026-09-20: User supplied full posting text (Job ID R10242395 \u2014 different req ID than previously tracked R10245255, likely a refreshed/duplicate posting for the same program; keeping under this key). Confirms Summer 2027 explicit (\"at least 10 weeks during Summer 2027\"), full-time. Interim Top Secret clearance required to start, US citizenship required (met). Description is generic/boilerplate for Aeronautics Systems Intern Program (no embedded/firmware specifics \u2014 includes technician-template language like calibration/compounds, not software-specific). Pay: Undergrad $18.50-33.50/hr, Masters $26.25-41.50/hr \u2014 Melbourne FL threshold ~$27/hr, undergrad range spans the threshold, Masters range clears it. Relocation assistance available.",
+      "rank_score": 63.25,
+      "rank_verdict": "Good Fit",
+      "rank_date": "2026-09-20"
+    },
+    "4460581696": {
+      "title": "Embedded Software Engineering Intern (2027 Summer Internship)",
+      "company": "Northwood",
+      "url": "https://www.linkedin.com/jobs/view/4460581696",
+      "first_seen": "2026-08-30",
+      "fit": "medium",
+      "status": "applied",
+      "note": "Torrance, CA. Defense and space ground stations. Calls for C, C++, Rust, SPI/I2C/UART/USB, oscilloscopes/logic analyzers, RTOS (Zephyr/FreeRTOS preferred). Gap: embedded Linux / Yocto. Small company, culture hard to assess. Pay not listed. | 2026-09-23: Applied. Pay confirmed /hr + ~k housing stipend, closes most of the gap vs. LA-area threshold. No cover letter, base resume used unchanged.",
+      "rank_score": 72,
+      "rank_verdict": "Good Fit",
+      "rank_date": "2026-08-30"
+    },
+    "4454158480": {
+      "title": "2027 Undergrad Firmware Engineering Intern/Co-op",
+      "company": "AMD",
+      "url": "https://www.linkedin.com/jobs/view/4454158480",
+      "first_seen": "2026-08-30",
+      "fit": "medium",
+      "status": "ranked",
+      "note": "Secaucus, NJ. x86 BIOS/UEFI firmware (not MCU/RTOS embedded). Pay $59k-88k/yr (~$28-42/hr), hybrid/onsite. Summer option May 24\u2013Aug 13, 2027. VHDL/Verilog preferred (gap). Semiconductor sector, doesn't advance physical-actuation career goal. \u26a0\ufe0f PAY BELOW COL THRESHOLD: Secaucus NJ threshold ~$42/hr \u2014 $28-42/hr range floor is below equivalent.",
+      "rank_score": 52,
+      "rank_verdict": "Moderate Fit",
+      "rank_date": "2026-08-30"
+    },
+    "4459876923": {
+      "title": "Intern, Software Engineer",
+      "company": "L3Harris Technologies",
+      "url": "https://www.linkedin.com/jobs/view/4459876923",
+      "first_seen": "2026-08-30",
+      "fit": "high",
+      "status": "ranked",
+      "note": "Northampton, MA. L3Harris tactical radio embedded SW. C/C++/RTOS. Pay $29-53.50/hr \u2014 above $28 threshold. 9/80 schedule. Tactical radio = comms focus, less physical actuation. Season unverified \u2014 confirm Summer/Fall 2027 with recruiter.",
+      "rank_score": 67,
+      "rank_verdict": "Good Fit",
+      "rank_date": "2026-08-30"
+    },
+    "4459628691": {
+      "title": "Embedded Firmware Engineer Co-Op (Winter/Spring 2027)",
+      "company": "Skyworks Solutions",
+      "url": "https://www.linkedin.com/jobs/view/4459628691",
+      "first_seen": "2026-08-30",
+      "fit": "high",
+      "status": "skipped",
+      "note": "Spring 2027 \u2014 hard excluded. Watch Skyworks for Summer/Fall 2027 cycle."
+    },
+    "4455737028": {
+      "title": "Intern, Software Engineer Spring 2027",
+      "company": "L3Harris Technologies",
+      "url": "https://www.linkedin.com/jobs/view/4455737028",
+      "first_seen": "2026-08-30",
+      "fit": "high",
+      "status": "skipped",
+      "note": "Spring 2027 \u2014 hard excluded."
+    },
+    "4459602356": {
+      "title": "Firmware Engineer Intern (Graduate Level) (Summer 2027)",
+      "company": "Vertiv",
+      "url": "https://www.linkedin.com/jobs/view/4459602356",
+      "first_seen": "2026-08-30",
+      "fit": "medium",
+      "status": "skipped",
+      "note": "Graduate Level explicitly stated \u2014 borderline for Travis (BS/MS accelerated). Summer 2027 timing is right. Revisit if needed."
+    },
+    "4454162363": {
+      "title": "2027 Masters Firmware Engineering Intern/Co-op",
+      "company": "AMD",
+      "url": "https://www.linkedin.com/jobs/view/4454162363",
+      "first_seen": "2026-08-30",
+      "fit": "low",
+      "status": "skipped",
+      "note": "Masters level \u2014 skip."
+    },
+    "4454161369": {
+      "title": "2027 Undergrad Firmware Engineering Intern/Co-op",
+      "company": "AMD",
+      "url": "https://www.linkedin.com/jobs/view/4454161369",
+      "first_seen": "2026-08-30",
+      "fit": "medium",
+      "status": "skipped",
+      "note": "Austin, TX \u2014 same AMD undergrad firmware role as 4454158480 (Secaucus NJ), different city posting. Logged as duplicate."
+    },
+    "4460507367": {
+      "title": "Mission Critical Networks Software Engineer - 2027 Co-op",
+      "company": "Motorola Solutions",
+      "url": "https://www.linkedin.com/jobs/view/4460507367",
+      "first_seen": "2026-08-30",
+      "fit": "medium",
+      "status": "skipped",
+      "note": "Schaumburg, IL. Mission Critical Networks focus \u2014 networking/radio protocols, not embedded hardware firmware. Below Travis's target profile."
+    },
+    "4460531379": {
+      "title": "Firmware Engineer Intern",
+      "company": "Hewlett Packard Enterprise",
+      "url": "https://www.linkedin.com/jobs/view/4460531379",
+      "first_seen": "2026-08-30",
+      "fit": "medium",
+      "status": "skipped",
+      "note": "Spring, TX. Compute/storage sector \u2014 not priority. Timing unverified."
+    },
+    "4460532358": {
+      "title": "Firmware Engineer Intern",
+      "company": "Hewlett Packard Enterprise",
+      "url": "https://www.linkedin.com/jobs/view/4460532358",
+      "first_seen": "2026-08-30",
+      "fit": "medium",
+      "status": "skipped",
+      "note": "Bloomington, MN. Same HPE firmware role \u2014 compute/storage sector, not priority. Timing unverified."
+    },
+    "4459834459": {
+      "title": "Software Development Engineer Intern",
+      "company": "VisLab (Ambarella)",
+      "url": "https://www.linkedin.com/jobs/view/4459834459",
+      "first_seen": "2026-08-30",
+      "fit": "low",
+      "status": "skipped",
+      "note": "Automotive semiconductor (Ambarella) \u2014 unclear embedded fit, not priority sector."
+    },
+    "4458019583": {
+      "title": "HW Developer Intern: Systems Assurance 2027",
+      "company": "IBM",
+      "url": "https://www.linkedin.com/jobs/view/4458019583",
+      "first_seen": "2026-08-30",
+      "fit": "low",
+      "status": "skipped",
+      "note": "Rochester, MN. Systems assurance (testing/validation) focus \u2014 not embedded firmware development."
+    },
+    "spacex_8621763002": {
+      "title": "Summer 2027 Silicon Engineering Internship/Co-op",
+      "company": "SpaceX",
+      "url": "https://job-boards.greenhouse.io/spacex/jobs/8621763002",
+      "first_seen": "2026-08-30",
+      "fit": "low",
+      "status": "skipped",
+      "note": "Custom ASIC/VLSI/chip architecture \u2014 not firmware/embedded work. Skip."
+    },
+    "4459534933": {
+      "title": "Summer 2027 Avionics Software Internship - Undergraduate",
+      "company": "Blue Origin",
+      "url": "https://www.linkedin.com/jobs/view/4459534933",
+      "first_seen": "2026-09-13",
+      "fit": "high",
+      "status": "applied",
+      "applied_date": "2026-09-14",
+      "note": "Applied 2026-09-14. R71424. Kent WA / Denver CO / Cape Canaveral FL / Huntsville AL. Resume: cv/blue_origin/travis_resume_blue_origin.tex."
+    },
+    "4459535884": {
+      "title": "Summer 2027 Avionics Software Internship - Undergraduate",
+      "company": "Blue Origin",
+      "url": "https://www.linkedin.com/jobs/view/4459535884",
+      "first_seen": "2026-09-13",
+      "fit": "high",
+      "status": "applied",
+      "applied_date": "2026-09-14",
+      "note": "Same application as 4459534933 (R71424) \u2014 Longmont CO location variant, logged as same app."
+    },
+    "4463027680": {
+      "title": "Embedded Software Engineer Intern",
+      "company": "Leonardo DRS",
+      "url": "https://www.linkedin.com/jobs/view/4463027680",
+      "first_seen": "2026-09-13",
+      "fit": "high",
+      "status": "skipped",
+      "note": "Bridgeton, MO. Posted 2026-09-09. Defense embedded firmware \u2014 Leonardo DRS was a top watch (had excellent Summer 2026 posting). C/C++, RTOS, defense sector. Verify Summer 2027 timing \u2014 prior cycle deadline was ~November 5."
+    },
+    "4463422219": {
+      "title": "Senior Technical Intern - Firmware",
+      "company": "Leonardo DRS",
+      "url": "https://www.linkedin.com/jobs/view/4463422219",
+      "first_seen": "2026-09-13",
+      "fit": "high",
+      "status": "skipped",
+      "note": "San Diego, CA. Posted 2026-09-10. Second Leonardo DRS posting \u2014 firmware-specific, different location/team from Bridgeton MO role. Investigate if season is Summer 2027."
+    },
+    "4465810510": {
+      "title": "Flight/Embedded Software Engineering Intern (Summer 2027)",
+      "company": "Impulse Space",
+      "url": "https://www.linkedin.com/jobs/view/4465810510",
+      "first_seen": "2026-09-13",
+      "fit": "high",
+      "status": "applied",
+      "applied_date": "2026-09-13",
+      "note": "Redondo Beach, CA. Summer 2027 explicit. Impulse Space previously only had full-time postings \u2014 this is a new intern role. In-space propulsion/spacecraft; flight and embedded SW combined role. Aerospace sector."
+    },
+    "4456350422": {
+      "title": "Controls Engineer Intern (Summer 2027)",
+      "company": "Zipline",
+      "url": "https://www.linkedin.com/jobs/view/4456350422",
+      "first_seen": "2026-09-13",
+      "fit": "high",
+      "status": "skipped",
+      "note": "South San Francisco, CA. THIRD Zipline Summer 2027 posting. Controls Engineer focus (not firmware) \u2014 Travis's PID/controls background from flight controller project and EVT 300Hz state machine is directly relevant. Different team from the two favorited firmware roles."
+    },
+    "4385363067": {
+      "title": "Software Engineer Intern - Embedded",
+      "company": "Garmin",
+      "url": "https://www.linkedin.com/jobs/view/4385363067",
+      "first_seen": "2026-09-13",
+      "fit": "high",
+      "status": "skipped",
+      "note": "Confirmed stale \u2014 posting is ~5 months old as of 2026-09-14, likely Summer 2026 cycle. Watch Garmin for a fresh Summer 2027 embedded posting. The general intern posting 4458531787 is Summer 2027 explicit but placement not guaranteed for embedded."
+    },
+    "4462063768": {
+      "title": "Summer 2027 Embedded Software Engineering Intern",
+      "company": "AV",
+      "url": "https://www.linkedin.com/jobs/view/4462063768",
+      "first_seen": "2026-09-13",
+      "fit": "medium",
+      "status": "applied",
+      "note": "Annapolis Junction, MD. Summer 2027 explicit. 'AV' \u2014 company identity unclear, needs investigation. Annapolis Junction MD is near NSA campus \u2014 possible defense/intel sector work. Verify company and role before applying. [2026-09-20: Applied. Company identity confirmed as AeroVironment (AVAV), legitimate. See documents/applications/aerovironment_embedded_software_intern/]"
+    },
+    "4462060792": {
+      "title": "Summer 2027 Embedded Software Engineering Intern",
+      "company": "AV",
+      "url": "https://www.linkedin.com/jobs/view/4462060792",
+      "first_seen": "2026-09-13",
+      "fit": "medium",
+      "status": "skipped",
+      "note": "San Diego, CA. Same AV company as 4462063768, different location. Log as duplicate/alt-location \u2014 evaluate 4462063768 first."
+    },
+    "4465349215": {
+      "title": "Kratos Space Federal Software Internship 2027",
+      "company": "Kratos Defense",
+      "url": "https://www.linkedin.com/jobs/view/4465349215",
+      "first_seen": "2026-09-13",
+      "fit": "medium",
+      "status": "ranked",
+      "note": "Colorado Springs, CO. Posted 2026-09-09. Kratos Defense makes satellite ground systems and defense electronics. '2027' in title but season unverified. Federal = US citizenship likely required. Investigate role content \u2014 could be embedded/real-time SW or general SW.",
+      "rank_score": 69,
+      "rank_verdict": "Good Fit",
+      "rank_date": "2026-09-20"
+    },
+    "4466030408": {
+      "title": "Software Engineering Intern (Summer 2027)",
+      "company": "Collins Aerospace",
+      "url": "https://www.linkedin.com/jobs/view/4466030408",
+      "first_seen": "2026-09-13",
+      "fit": "medium",
+      "status": "ranked",
+      "note": "Burnsville, MN. Posted 2026-09-11. Summer 2027 explicit. Burnsville is Collins's Mission Systems/communications division \u2014 not the main avionics hub (Cedar Rapids IA). General SW posting, embedded placement not guaranteed. US citizenship required. Pay ~$27-37/hr.",
+      "rank_score": 62.5,
+      "rank_verdict": "Good Fit",
+      "rank_date": "2026-09-20"
+    },
+    "4461245037": {
+      "title": "Embedded Security Intern - Electronics Prototype",
+      "company": "MITRE",
+      "url": "https://www.linkedin.com/jobs/view/4461245037",
+      "first_seen": "2026-09-13",
+      "fit": "medium",
+      "status": "skipped",
+      "note": "Bedford, MA. Posted 2026-09-03. MITRE is a defense FFRDC (federally funded research and development center). 'Electronics Prototype' suggests hands-on bench work. Security-focused \u2014 not pure firmware controls/actuation. US citizenship required. Investigate season and role content. | 2026-09-23: Travis reviewed, not interesting, skipped without applying.",
+      "rank_score": 73.25,
+      "rank_verdict": "Good Fit",
+      "rank_date": "2026-09-20"
+    },
+    "4463917551": {
+      "title": "Embedded Software Intern (Summer 2027)",
+      "company": "Swarm Aero",
+      "url": "https://www.linkedin.com/jobs/view/4463917551",
+      "first_seen": "2026-09-13",
+      "fit": "medium",
+      "status": "applied",
+      "note": "Oxnard, CA. Summer 2027 explicit. Posted 2026-09-11. Swarm Aero is a small drone company \u2014 investigate size, stability, and role content before applying. Aerospace/UAS sector. Pay unknown. [2026-09-20: Applied, resume only. See documents/applications/swarm_aero_embedded_software_intern/]"
+    },
+    "4416730210": {
+      "title": "Firmware Engineer Intern, Robotics and Surgery Engineering",
+      "company": "Neuralink",
+      "url": "https://www.linkedin.com/jobs/view/4416730210",
+      "first_seen": "2026-09-13",
+      "fit": "medium",
+      "status": "skipped",
+      "note": "San Francisco, CA. Posted 2026-09-06. Fresh posting \u2014 clearer timing than prior Neuralink listings. Robotics/Surgery Engineering team (actuators, surgical robot) \u2014 more physical-system-adjacent than the implant roles. Requires 2+ yrs embedded exp (borderline for Travis). Verify season. [2026-09-20: Declined after starting to draft. Posting/description implied relocation and other support, but the actual application flow explicitly states no relocation assistance is provided \u2014 a real discrepancy between what was advertised and what is actually offered. Combined with the already-borderline financial-loss math ($35/hr in SF), not worth it.]"
+    },
+    "4462477898": {
+      "title": "Summer 2027 Internship - Embedded Software Engineering",
+      "company": "General Matter",
+      "url": "https://www.linkedin.com/jobs/view/4462477898",
+      "first_seen": "2026-09-13",
+      "fit": "medium",
+      "status": "ranked",
+      "note": "Los Angeles, CA. Summer 2027 explicit. General Matter appears to be a robotics/EV startup \u2014 investigate company identity and product before applying. Pay unknown.",
+      "rank_score": 71,
+      "rank_verdict": "Good Fit",
+      "rank_date": "2026-09-20"
+    },
+    "4462859800": {
+      "title": "Mission Systems Engineering Intern - Spring/Summer 2027",
+      "company": "Hermeus",
+      "url": "https://www.linkedin.com/jobs/view/4462859800",
+      "first_seen": "2026-09-13",
+      "fit": "medium",
+      "status": "skipped",
+      "note": "Los Angeles, CA. Posted 2026-09-09. Hermeus makes hypersonic aircraft. 'Spring/Summer 2027' \u2014 timing ambiguous, may have a Summer 2027 track. Mission Systems Engineering focus \u2014 verify if embedded/firmware content or more systems integration. Investigate before applying. | 2026-09-23: Travis reviewed, decided not to apply for now (pay gap at both Atlanta/LA sites vs. COL-adjusted threshold, plus already has a separate Hermeus GNC application in progress).",
+      "rank_score": 74,
+      "rank_verdict": "Good Fit",
+      "rank_date": "2026-09-20"
+    },
+    "4459532195": {
+      "title": "Firmware Co-op",
+      "company": "Eaton",
+      "url": "https://www.linkedin.com/jobs/view/4459532195",
+      "first_seen": "2026-09-13",
+      "fit": "medium",
+      "status": "skipped",
+      "note": "Moon Township, PA (near Pittsburgh). Posted 2026-09-01. Eaton makes power management / electrical systems. 'Co-op' timing unclear \u2014 verify whether Summer 2027 or another season. Firmware focus is relevant but industrial power sector is lower priority than defense/aerospace/robotics. | 2026-09-23: Travis skipped \u2014 skipped per Travis.",
+      "rank_score": 70.25,
+      "rank_verdict": "Good Fit",
+      "rank_date": "2026-09-20"
+    },
+    "4463551826": {
+      "title": "Software Engineering Intern - Vehicle Controls (Jan\u2013Aug 2027)",
+      "company": "Rivian and Volkswagen Group Technologies",
+      "url": "https://www.linkedin.com/jobs/view/4463551826",
+      "first_seen": "2026-09-13",
+      "fit": "high",
+      "status": "skipped",
+      "note": "Irvine, CA. Starts January 2027 \u2014 Spring co-op start, hard excluded (Travis is at RIT spring semester Jan-May). Strong technical fit otherwise (vehicle controls, C, CAN). Watch for Rivian Summer-only roles (expected within weeks per careers.rivian.com)."
+    },
+    "4463566357": {
+      "title": "Software Engineering Intern - Vehicle Controls (Jan\u2013Aug 2027)",
+      "company": "Rivian and Volkswagen Group Technologies",
+      "url": "https://www.linkedin.com/jobs/view/4463566357",
+      "first_seen": "2026-09-13",
+      "fit": "high",
+      "status": "skipped",
+      "note": "Palo Alto, CA. Same Rivian Jan-Aug 2027 role as 4463551826 \u2014 Spring start, hard excluded."
+    },
+    "4459963783": {
+      "title": "Embedded Software Engineering Co-op - Spring 2027",
+      "company": "CACI International Inc",
+      "url": "https://www.linkedin.com/jobs/view/4459963783",
+      "first_seen": "2026-09-13",
+      "fit": "medium",
+      "status": "skipped",
+      "note": "Danbury, CT. Spring 2027 \u2014 hard excluded."
+    },
+    "4416739152": {
+      "title": "Firmware Engineer Intern, Robotics and Surgery Engineering",
+      "company": "Neuralink",
+      "url": "https://www.linkedin.com/jobs/view/4416739152",
+      "first_seen": "2026-09-13",
+      "fit": "medium",
+      "status": "skipped",
+      "note": "South San Francisco, CA. Duplicate of 4416730210 (SF location)."
+    },
+    "4463915948": {
+      "title": "Avionics Engineer Intern (Summer 2027)",
+      "company": "Swarm Aero",
+      "url": "https://www.linkedin.com/jobs/view/4463915948",
+      "first_seen": "2026-09-13",
+      "fit": "low",
+      "status": "skipped",
+      "note": "Oxnard, CA. Avionics Engineering (EE-focused) not software/firmware \u2014 skip."
+    },
+    "4461455006": {
+      "title": "Firmware Engineer Intern, BS - Summer 2027",
+      "company": "Marvell Technology",
+      "url": "https://www.linkedin.com/jobs/view/4461455006",
+      "first_seen": "2026-09-13",
+      "fit": "medium",
+      "status": "skipped",
+      "note": "Westlake Village, CA. Semiconductor sector \u2014 not priority. Networking/storage chip firmware."
+    },
+    "4461452052": {
+      "title": "Firmware Engineer Intern, BS - Summer 2027",
+      "company": "Marvell Technology",
+      "url": "https://www.linkedin.com/jobs/view/4461452052",
+      "first_seen": "2026-09-13",
+      "fit": "medium",
+      "status": "skipped",
+      "note": "Santa Clara, CA. Duplicate of 4461455006 \u2014 different location, same role."
+    },
+    "4461431967": {
+      "title": "Firmware Engineer Intern, MS - Summer 2027",
+      "company": "Marvell Technology",
+      "url": "https://www.linkedin.com/jobs/view/4461431967",
+      "first_seen": "2026-09-13",
+      "fit": "low",
+      "status": "skipped",
+      "note": "Santa Clara, CA. Masters level \u2014 skip."
+    },
+    "4461225859": {
+      "title": "SSD Firmware Development Engineer Intern",
+      "company": "SK hynix",
+      "url": "https://www.linkedin.com/jobs/view/4461225859",
+      "first_seen": "2026-09-13",
+      "fit": "low",
+      "status": "skipped",
+      "note": "San Jose, CA. Storage semiconductor \u2014 not priority sector."
+    },
+    "4461779286": {
+      "title": "Firmware Development Intern",
+      "company": "Sanmina",
+      "url": "https://www.linkedin.com/jobs/view/4461779286",
+      "first_seen": "2026-09-13",
+      "fit": "low",
+      "status": "skipped",
+      "note": "Colorado Springs, CO. Electronics manufacturing services \u2014 not priority sector."
+    },
+    "4385389613": {
+      "title": "Firmware Intern",
+      "company": "Etched",
+      "url": "https://www.linkedin.com/jobs/view/4385389613",
+      "first_seen": "2026-09-13",
+      "fit": "low",
+      "status": "skipped",
+      "note": "San Jose, CA. Etched makes AI inference chips \u2014 not priority sector."
+    },
+    "4463781550": {
+      "title": "Embedded Software Engineering Intern - Summer",
+      "company": "Fab2",
+      "url": "https://www.linkedin.com/jobs/view/4463781550",
+      "first_seen": "2026-09-13",
+      "fit": "low",
+      "status": "skipped",
+      "note": "Austin, TX. No year stated, timing unclear. Fab2 is an EV truck startup \u2014 not well-established."
+    },
+    "4463769618": {
+      "title": "Embedded Software Engineering Intern - Summer",
+      "company": "Fab2",
+      "url": "https://www.linkedin.com/jobs/view/4463769618",
+      "first_seen": "2026-09-13",
+      "fit": "low",
+      "status": "skipped",
+      "note": "San Francisco, CA. Duplicate of 4463781550 \u2014 different location."
+    },
+    "4463776679": {
+      "title": "Automation Software Engineering Intern - Summer",
+      "company": "Fab2",
+      "url": "https://www.linkedin.com/jobs/view/4463776679",
+      "first_seen": "2026-09-13",
+      "fit": "low",
+      "status": "skipped",
+      "note": "San Francisco, CA. Automation SW, not embedded firmware. Skip."
+    },
+    "4460246263": {
+      "title": "Embedded Software Engineer Internship Summer 2027",
+      "company": "Vermeer Corporation",
+      "url": "https://www.linkedin.com/jobs/view/4460246263",
+      "first_seen": "2026-09-13",
+      "fit": "low",
+      "status": "skipped",
+      "note": "Pella, IA. Agricultural/construction equipment \u2014 not priority sector."
+    },
+    "4463614621": {
+      "title": "Embedded Software Engineer Intern 1",
+      "company": "CNH",
+      "url": "https://www.linkedin.com/jobs/view/4463614621",
+      "first_seen": "2026-09-13",
+      "fit": "low",
+      "status": "skipped",
+      "note": "New Holland, PA. CNH (Case New Holland) \u2014 agricultural/construction equipment, not priority sector."
+    },
+    "4466347832": {
+      "title": "Embedded Software Engineer Intern",
+      "company": "CNH",
+      "url": "https://www.linkedin.com/jobs/view/4466347832",
+      "first_seen": "2026-09-13",
+      "fit": "low",
+      "status": "skipped",
+      "note": "Tempe, AZ. Duplicate of 4463614621 \u2014 different location."
+    },
+    "4463132160": {
+      "title": "2027 Electrical & Computer Engineering Intern",
+      "company": "Alcon",
+      "url": "https://www.linkedin.com/jobs/view/4463132160",
+      "first_seen": "2026-09-13",
+      "fit": "low",
+      "status": "skipped",
+      "note": "Goleta, CA. Alcon makes ophthalmic medical devices \u2014 not priority sector."
+    },
+    "4463122871": {
+      "title": "2027 Electrical & Computer Engineering Intern",
+      "company": "Alcon",
+      "url": "https://www.linkedin.com/jobs/view/4463122871",
+      "first_seen": "2026-09-13",
+      "fit": "low",
+      "status": "skipped",
+      "note": "Lake Forest, CA. Duplicate of 4463132160."
+    },
+    "4464090607": {
+      "title": "Embedded Machine Learning & Radar Processing Intern - Summer 2027",
+      "company": "NXP Semiconductors",
+      "url": "https://www.linkedin.com/jobs/view/4464090607",
+      "first_seen": "2026-09-13",
+      "fit": "low",
+      "status": "skipped",
+      "note": "San Jose, CA. Semiconductor sector \u2014 ML/radar signal processing, not embedded firmware."
+    },
+    "4462445053": {
+      "title": "Intern - Engineering Software",
+      "company": "Magna International",
+      "url": "https://www.linkedin.com/jobs/view/4462445053",
+      "first_seen": "2026-09-13",
+      "fit": "low",
+      "status": "skipped",
+      "note": "Southfield, MI. Magna is an auto parts OEM supplier \u2014 generic SW posting, not embedded firmware specific."
+    },
+    "4460033711": {
+      "title": "Engineer Intern - Software (Summer 2027)",
+      "company": "McNeilus Truck and Manufacturing",
+      "url": "https://www.linkedin.com/jobs/view/4460033711",
+      "first_seen": "2026-09-13",
+      "fit": "low",
+      "status": "skipped",
+      "note": "Dodge Center, MN. Refuse truck manufacturer \u2014 not priority sector."
+    },
+    "4464640346": {
+      "title": "Internship: Embedded Software Engineer",
+      "company": "Revel",
+      "url": "https://www.linkedin.com/jobs/view/4464640346",
+      "first_seen": "2026-09-13",
+      "fit": "low",
+      "status": "skipped",
+      "note": "Los Angeles area. Timing unclear, no season stated. Revel is a small EV company."
+    },
+    "4464139528": {
+      "title": "Intern, Software",
+      "company": "Amperesand",
+      "url": "https://www.linkedin.com/jobs/view/4464139528",
+      "first_seen": "2026-09-13",
+      "fit": "low",
+      "status": "skipped",
+      "note": "San Francisco Bay Area. Company and role unclear \u2014 generic software intern."
+    },
+    "lm_mfc_11910": {
+      "title": "Embedded Software Engineer Intern (Req 11910)",
+      "company": "Lockheed Martin",
+      "url": "https://www.lockheedmartinjobs.com/job/orlando/embedded-software-engineer-intern/694/11910",
+      "first_seen": "2026-09-14",
+      "fit": "high",
+      "status": "applied",
+      "applied_date": "2026-09-14",
+      "note": "Orlando, FL. Missiles & Fire Control. Drivers, state machines, multi-threaded, tactical hardware control. Pay $26.81-$30.97/hr (borderline COL threshold for Orlando). Secret clearance required. No cover letter required. Resume: cv/simple/travis_resume_lockheed.tex."
+    },
+    "lm_mfc_12652": {
+      "title": "Embedded Software Engineer Intern (Req 12652)",
+      "company": "Lockheed Martin",
+      "url": "https://www.lockheedmartinjobs.com/job/grand-prairie/embedded-software-engineer-intern/694/12652",
+      "first_seen": "2026-09-14",
+      "fit": "medium",
+      "status": "applied",
+      "applied_date": "2026-09-14",
+      "note": "Grand Prairie, TX. Missiles & Fire Control. More generic SW focus than Orlando role. Pay $26.81-$30.97/hr (borderline COL threshold for Dallas area). Secret clearance required. No cover letter required. Resume: cv/simple/travis_resume_lockheed.tex."
+    },
+    "4468299424": {
+      "title": "Embedded Software Engineer Intern - Fall 2026",
+      "company": "Castelion",
+      "location": "Torrance, CA",
+      "url": "https://www.linkedin.com/jobs/view/4468299424",
+      "first_seen": "2026-09-20",
+      "fit": "high",
+      "status": "skipped",
+      "note": "Fall 2026 explicit \u2014 wrong timing"
+    },
+    "4453119412": {
+      "title": "Intern - Engineer (Spring 2027) EIS (ET26077)",
+      "company": "TMEIC",
+      "location": "Greater Roanoke Area",
+      "url": "https://www.linkedin.com/jobs/view/4453119412",
+      "first_seen": "2026-09-20",
+      "fit": "low",
+      "status": "skipped",
+      "note": "Spring 2027 explicit \u2014 hard exclusion"
+    },
+    "4453111444": {
+      "title": "Intern - Engineer (Spring 2027) EIS (ET26076)",
+      "company": "TMEIC",
+      "location": "Greater Houston",
+      "url": "https://www.linkedin.com/jobs/view/4453111444",
+      "first_seen": "2026-09-20",
+      "fit": "low",
+      "status": "skipped",
+      "note": "Spring 2027 explicit \u2014 hard exclusion"
+    },
+    "4456350423": {
+      "title": "Controls Engineer Intern (Spring 2027)",
+      "company": "Zipline",
+      "location": "South San Francisco, CA",
+      "url": "https://www.linkedin.com/jobs/view/4456350423",
+      "first_seen": "2026-09-20",
+      "fit": "medium",
+      "status": "skipped",
+      "note": "Spring 2027 explicit \u2014 hard exclusion. Note: different Zipline role than the favorited firmware posting."
+    },
+    "4468605456": {
+      "title": "Systems Engineering Co-Op (Software)",
+      "company": "Valeo",
+      "location": "Troy, MI",
+      "url": "https://www.linkedin.com/jobs/view/4468605456",
+      "first_seen": "2026-09-20",
+      "fit": "low",
+      "status": "skipped",
+      "note": "Co-Op program \u2014 deal-breaker (not a standard full-time internship)"
+    },
+    "4466163775": {
+      "title": "Embedded Systems Firmware Engineering Intern (Graduates & U.S. Persons Only)",
+      "company": "ELDAEON INC.",
+      "location": "Azusa, CA",
+      "url": "https://www.linkedin.com/jobs/view/4466163775",
+      "first_seen": "2026-09-20",
+      "fit": "high",
+      "status": "skipped",
+      "note": "Explicitly graduates only (degree conferred) \u2014 current students not eligible. Otherwise would be a strong fit ($20/hr + housing, firmware ownership)."
+    },
+    "4465946049": {
+      "title": "Embedded Software Engineering Intern",
+      "company": "Gecko Robotics",
+      "location": "Pittsburgh, PA",
+      "url": "https://www.linkedin.com/jobs/view/4465946049",
+      "first_seen": "2026-09-20",
+      "fit": "high",
+      "status": "applied",
+      "note": "Summer 2027, RoboSPLAT/Field Infra team. Expected grad window 'Dec 2027-May 2028' matches Travis exactly. Robotics target sector. [2026-09-20: Applied with default/base resume, no cover letter. See documents/applications/gecko_robotics_embedded_software_intern/]"
+    },
+    "4468087944": {
+      "title": "Automotive Engineering Internship \u2013 Summer 2027",
+      "company": "Qualcomm",
+      "location": "San Diego, CA",
+      "url": "https://www.linkedin.com/jobs/view/4468087944",
+      "first_seen": "2026-09-20",
+      "fit": "high",
+      "status": "ranked",
+      "note": "Summer 2027 explicit. Automotive + embedded chip company.",
+      "rank_score": 70.25,
+      "rank_verdict": "Good Fit",
+      "rank_date": "2026-09-20"
+    },
+    "4468093281": {
+      "title": "Embedded Engineering Internship - Summer 2027",
+      "company": "Qualcomm",
+      "location": "Boxborough, MA",
+      "url": "https://www.linkedin.com/jobs/view/4468093281",
+      "first_seen": "2026-09-20",
+      "fit": "high",
+      "status": "applied",
+      "note": "Summer 2027 explicit. [2026-09-20: Applied via /apply workflow, requested Automotive track. See documents/applications/qualcomm_embedded_engineering_internship/]",
+      "rank_score": 84.5,
+      "rank_verdict": "Strong Fit",
+      "rank_date": "2026-09-20"
+    },
+    "4468085936": {
+      "title": "Embedded Engineering Internship - Summer 2027",
+      "company": "Qualcomm",
+      "location": "Santa Clara, CA",
+      "url": "https://www.linkedin.com/jobs/view/4468085936",
+      "first_seen": "2026-09-20",
+      "fit": "high",
+      "status": "skipped",
+      "note": "Summer 2027 explicit. [2026-09-20: Same pooled Qualcomm Embedded Engineering program as 4468093281 (Boxborough), which was applied to. Duplicate site listing, not a separate opportunity.]",
+      "rank_score": 84.5,
+      "rank_verdict": "Strong Fit",
+      "rank_date": "2026-09-20"
+    },
+    "4467919269": {
+      "title": "Summer 2027 - Embedded Software Engineering Internship",
+      "company": "CesiumAstro",
+      "location": "Denver Metropolitan Area",
+      "url": "https://www.linkedin.com/jobs/view/4467919269",
+      "first_seen": "2026-09-20",
+      "fit": "high",
+      "status": "applied",
+      "note": "Summer 2027 explicit. Aerospace comms hardware company. [2026-09-20: Applied. See documents/applications/cesiumastro_embedded_software_intern/]"
+    },
+    "4467917325": {
+      "title": "Summer 2027 - Embedded Software Engineering Internship",
+      "company": "CesiumAstro",
+      "location": "Austin, TX",
+      "url": "https://www.linkedin.com/jobs/view/4467917325",
+      "first_seen": "2026-09-20",
+      "fit": "high",
+      "status": "skipped",
+      "note": "Summer 2027 explicit. Same company as Denver posting, different site. [2026-09-20: Same JD as Denver posting (4467919269), which was applied to. Travis chose to skip the Austin location rather than apply twice.]"
+    },
+    "4466566882": {
+      "title": "Embedded Software Engineering Intern - Summer 2027",
+      "company": "Lunar Outpost",
+      "location": "Golden, CO",
+      "url": "https://www.linkedin.com/jobs/view/4466566882",
+      "first_seen": "2026-09-20",
+      "fit": "high",
+      "status": "applied",
+      "note": "Summer 2027 explicit. Space robotics/rovers company. COL for Golden/Denver area ~$34.50/hr threshold \u2014 verify pay. [2026-09-20: Applied, pay confirmed $24/hr. See documents/applications/lunar_outpost_embedded_software_intern/]"
+    },
+    "4465532662": {
+      "title": "Embedded Software Engineer Intern",
+      "company": "Lockheed Martin",
+      "location": "Grand Prairie, TX",
+      "url": "https://www.linkedin.com/jobs/view/4465532662",
+      "first_seen": "2026-09-20",
+      "fit": "high",
+      "status": "applied",
+      "note": "Requires 'working towards a Master's degree or enrolled in a master's program by summer 2027' \u2014 VERIFY Travis's combined BS/MS program satisfies this. Pay $23.19-39.20/hr. Defense target company. [2026-09-20: Very likely already covered by the bulk application to all open MFC Orlando/Grand Prairie Embedded SW Eng Intern reqs on Lockheed's own portal (12 reqs applied total) \u2014 LinkedIn just doesn't expose the internal req ID to confirm which one maps here.]"
+    },
+    "4466579992": {
+      "title": "2027 Firmware, Software Engineering Intern",
+      "company": "Mercury Systems",
+      "location": "Andover, MA",
+      "url": "https://www.linkedin.com/jobs/view/4466579992",
+      "first_seen": "2026-09-20",
+      "fit": "high",
+      "status": "skipped",
+      "note": "Explicit May/June-Aug/Sept 2027. Defense electronics. Pay $17-38/hr \u2014 flag possible gap vs ~$30-43/hr MA-area threshold depending on actual offer. [2026-09-20: Skipped due to a technical blocker, not fit \u2014 their application portal would not accept the resume upload (\"Could not upload the document\") despite trying the original PDF, a Ghostscript-relinearized PDF-1.4 version, a renamed file, retries, and a different browser. Not a resume-quality issue; likely a bug on Mercury Systems' own ATS. Resume draft was built (Software track framing: developing/testing firmware for defense) but never successfully submitted.]"
+    },
+    "4465533599": {
+      "title": "Embedded Software Engineer Intern",
+      "company": "Lockheed Martin",
+      "location": "Orlando, FL",
+      "url": "https://www.linkedin.com/jobs/view/4465533599",
+      "first_seen": "2026-09-20",
+      "fit": "medium",
+      "status": "applied",
+      "note": "Season not stated in posting \u2014 verify with recruiter. Pay $26.81-30.97/hr. Defense target company. [2026-09-20: Pay range (.81-30.97/hr) exactly matches already-applied req lm_mfc_11910 (Orlando) \u2014 almost certainly the same job cross-posted to LinkedIn. Marked applied/duplicate rather than presented as a new opportunity.]"
+    },
+    "4466693199": {
+      "title": "Embedded Software Engineer Intern",
+      "company": "Lockheed Martin",
+      "location": "Orlando, FL",
+      "url": "https://www.linkedin.com/jobs/view/4466693199",
+      "first_seen": "2026-09-20",
+      "fit": "medium",
+      "status": "ranked",
+      "note": "Second, separate Orlando req \u2014 season not stated. Pay $24.37-28.15/hr. 'Prior embedded internships a bonus, not required.'",
+      "rank_score": 81,
+      "rank_verdict": "Strong Fit",
+      "rank_date": "2026-09-20"
+    },
+    "4466484352": {
+      "title": "Software Engineering Intern",
+      "company": "L3Harris Technologies",
+      "location": "Salt Lake City, UT",
+      "url": "https://www.linkedin.com/jobs/view/4466484352",
+      "first_seen": "2026-09-20",
+      "fit": "medium",
+      "status": "skipped",
+      "note": "Season not stated \u2014 verify. Generic SWE title, not embedded-specific. Defense target company. [2026-09-20: Skipped after evaluation \u2014 tactical radio waveform/crypto/RF-networking work overlaps too much with current GE Vernova radio-firmware domain and Silvus-style work already declined for breadth reasons.]"
+    },
+    "4466701117": {
+      "title": "Software Engineering Intern",
+      "company": "L3Harris Technologies",
+      "location": "Rochester, NY",
+      "url": "https://www.linkedin.com/jobs/view/4466701117",
+      "first_seen": "2026-09-20",
+      "fit": "medium",
+      "status": "skipped",
+      "note": "Same city as RIT \u2014 convenient. Season not stated. Pay $24.50-46.50/hr. Generic SWE title. [2026-09-20: Travis does not want to apply to anything in Rochester, NY, despite it being his school city. Do not present Rochester-located postings going forward.]"
+    },
+    "4465969508": {
+      "title": "2027 Aerospace Software Engineer Undergraduate Intern",
+      "company": "The Aerospace Corporation",
+      "location": "El Segundo, CA",
+      "url": "https://www.linkedin.com/jobs/view/4465969508",
+      "first_seen": "2026-09-20",
+      "fit": "medium",
+      "status": "skipped",
+      "note": "Season not explicitly stated (bare '2027'). Pay $25-30/hr \u2014 below LA-area COL threshold (~$46.50/hr) if this is the final offer; flag gap. [2026-09-20: Declined. Pay (25-30/hr, no housing assistance) means a real monetary loss in El Segundo, and the actual work is IV&V/SITL-HITL-emulator testing rather than firmware development. Travis said he would only accept a below-market/no-housing internship for an exceptional company or exceptionally cool work, not a merely good fit.]"
+    },
+    "4466548445": {
+      "title": "Embedded Software Engineer Intern",
+      "company": "Analog Devices",
+      "location": "San Jose, CA",
+      "url": "https://www.linkedin.com/jobs/view/4466548445",
+      "first_seen": "2026-09-20",
+      "fit": "medium",
+      "status": "skipped",
+      "note": "Season not stated. Pay $22-41/hr, Bay Area COL threshold ~$57/hr \u2014 likely below if lower end of range offered. | 2026-09-23: Travis skipped \u2014 doesn't know what Analog Devices does / doesn't fit aerospace or vehicle-controls interest.",
+      "rank_score": 71.75,
+      "rank_verdict": "Good Fit",
+      "rank_date": "2026-09-20"
+    },
+    "4466538658": {
+      "title": "Embedded Software Engineer Intern",
+      "company": "Analog Devices",
+      "location": "Durham, NC",
+      "url": "https://www.linkedin.com/jobs/view/4466538658",
+      "first_seen": "2026-09-20",
+      "fit": "medium",
+      "status": "skipped",
+      "note": "Season not stated. Pay $22-41/hr. | 2026-09-23: Travis skipped \u2014 doesn't know what Analog Devices does / doesn't fit aerospace or vehicle-controls interest.",
+      "rank_score": 71.75,
+      "rank_verdict": "Good Fit",
+      "rank_date": "2026-09-20"
+    },
+    "4469227159": {
+      "title": "Summer Research Program Intern 2027, Software and Electronics Engineering",
+      "company": "MIT Lincoln Laboratory",
+      "location": "Lexington, MA",
+      "url": "https://www.linkedin.com/jobs/view/4469227159",
+      "first_seen": "2026-09-20",
+      "fit": "medium",
+      "status": "skipped",
+      "note": "Summer 2027, federally-funded defense R&D lab. Pay scales by class standing ($29-32/hr likely bracket for Travis by summer 2027). Requires U.S. citizenship (met). [2026-09-20: Skipped at application time \u2014 the actual application requires 3 references, which Travis does not currently have available. Not mentioned in the posting text itself, only discovered when starting the application. Resume draft was built (Software track framing) but not submitted.]"
+    },
+    "4467240658": {
+      "title": "Firmware Engineering Intern",
+      "company": "Base Power Company",
+      "location": "Austin, TX",
+      "url": "https://www.linkedin.com/jobs/view/4467240658",
+      "first_seen": "2026-09-20",
+      "fit": "medium",
+      "status": "skipped",
+      "note": "Season not stated. Battery/grid hardware startup \u2014 physical systems relevance. [2026-09-20: Skipped. No pay stated anywhere and closest proxy data (other Base Power intern roles) suggests likely too low for Travis to consider worth pursuing.]"
+    },
+    "4464919922": {
+      "title": "Embedded Software Engineer Intern",
+      "company": "CNH",
+      "location": "Sioux Falls, SD",
+      "url": "https://www.linkedin.com/jobs/view/4464919922",
+      "first_seen": "2026-09-20",
+      "fit": "medium",
+      "status": "ranked",
+      "note": "Season not stated. Ag equipment embedded controls. 'Co-op' mention in posting is generic company-program language, not this specific role.",
+      "rank_score": 66.5,
+      "rank_verdict": "Good Fit",
+      "rank_date": "2026-09-20"
+    },
+    "4464915923": {
+      "title": "Controls / Robotics Engineer Intern",
+      "company": "CNH",
+      "location": "Oak Brook, IL",
+      "url": "https://www.linkedin.com/jobs/view/4464915923",
+      "first_seen": "2026-09-20",
+      "fit": "medium",
+      "status": "skipped",
+      "note": "Season not stated. Controls/robotics \u2014 ag equipment automation. | 2026-09-23: Travis skipped \u2014 skipped per Travis.",
+      "rank_score": 71.5,
+      "rank_verdict": "Good Fit",
+      "rank_date": "2026-09-20"
+    },
+    "4456278315": {
+      "title": "Electrical Engineer Intern, Robotics and Surgery Engineering",
+      "company": "Neuralink",
+      "location": "South San Francisco, CA",
+      "url": "https://www.linkedin.com/jobs/view/4456278315",
+      "first_seen": "2026-09-20",
+      "fit": "medium",
+      "status": "ranked",
+      "note": "EE role (not embedded SW) but strong hands-on hardware/robotics culture. $35/hr. Season not stated. [2026-09-20: CAUTION \u2014 a different Neuralink posting (4416730210) was found to promise relocation/support in its description that the actual application flow contradicted (no relocation assistance offered). Verify this posting's actual application terms directly before trusting the description if it comes up.]",
+      "rank_score": 64,
+      "rank_verdict": "Good Fit",
+      "rank_date": "2026-09-20"
+    },
+    "4447230327": {
+      "title": "Electrical Engineering Internship",
+      "company": "Persona AI",
+      "location": "Greater Houston",
+      "url": "https://www.linkedin.com/jobs/view/4447230327",
+      "first_seen": "2026-09-20",
+      "fit": "medium",
+      "status": "ranked",
+      "note": "Robotics startup running Summer 2027 cohort (May-Aug) \u2014 apply for that cohort specifically. EE role, not embedded SW.",
+      "rank_score": 68.25,
+      "rank_verdict": "Good Fit",
+      "rank_date": "2026-09-20"
+    },
+    "4463070672": {
+      "title": "2027 Software Engineering Intern (Masters - Santa Clara, CA)",
+      "company": "Applied Materials",
+      "location": "Santa Clara, CA",
+      "url": "https://www.linkedin.com/jobs/view/4463070672",
+      "first_seen": "2026-09-20",
+      "fit": "medium",
+      "status": "ranked",
+      "note": "Summer 2027 explicit but title targets Masters students \u2014 verify Travis's combined BS/MS program qualifies. Semiconductor equipment, unclear physical/embedded component.",
+      "rank_score": 64.5,
+      "rank_verdict": "Good Fit",
+      "rank_date": "2026-09-20"
+    },
+    "4466378196": {
+      "title": "2027 Software Engineering Summer Internship",
+      "company": "Motorola Solutions",
+      "location": "Plantation, FL",
+      "url": "https://www.linkedin.com/jobs/view/4466378196",
+      "first_seen": "2026-09-20",
+      "fit": "low",
+      "status": "ranked",
+      "note": "Summer 2027 explicit but generic SWE \u2014 no embedded/hardware signal in title.",
+      "rank_score": 50.75,
+      "rank_verdict": "Moderate Fit",
+      "rank_date": "2026-09-20"
+    },
+    "4467987874": {
+      "title": "Software Engineer Intern",
+      "company": "CNH",
+      "location": "Tempe, AZ",
+      "url": "https://www.linkedin.com/jobs/view/4467987874",
+      "first_seen": "2026-09-20",
+      "fit": "low",
+      "status": "ranked",
+      "note": "Generic SWE title (not embedded-specific), season not stated.",
+      "rank_score": 55,
+      "rank_verdict": "Moderate Fit",
+      "rank_date": "2026-09-20"
+    },
+    "4466831387": {
+      "title": "Digital Industries Automation Internship Program - Application Engineering Track",
+      "company": "Siemens",
+      "location": "Alpharetta, GA",
+      "url": "https://www.linkedin.com/jobs/view/4466831387",
+      "first_seen": "2026-09-20",
+      "fit": "low",
+      "status": "ranked",
+      "note": "Summer 2027 confirmed (May 17-Aug 6) but Application Engineering, not firmware/embedded development.",
+      "rank_score": 43,
+      "rank_verdict": "Weak Fit",
+      "rank_date": "2026-09-20"
+    },
+    "4465238378": {
+      "title": "AFT Engineering Control Intern",
+      "company": "Vylor",
+      "location": "Johnston, IA",
+      "url": "https://www.linkedin.com/jobs/view/4465238378",
+      "first_seen": "2026-09-20",
+      "fit": "low",
+      "status": "ranked",
+      "note": "Spans Jan-Aug 2027 (spring+summer) \u2014 not a Spring-only exclusion, but small/unfamiliar company, unclear firmware relevance.",
+      "rank_score": 43,
+      "rank_verdict": "Weak Fit",
+      "rank_date": "2026-09-20"
+    },
+    "4460151047": {
+      "title": "Controls Engineering Intern (Summer 2027)",
+      "company": "Schreiber Foods",
+      "location": "Carthage, MO",
+      "url": "https://www.linkedin.com/jobs/view/4460151047",
+      "first_seen": "2026-09-20",
+      "fit": "low",
+      "status": "ranked",
+      "note": "Summer 2027 explicit but food manufacturing PLC/industrial controls, not firmware/RTOS work.",
+      "rank_score": 42.25,
+      "rank_verdict": "Weak Fit",
+      "rank_date": "2026-09-20"
+    },
+    "4468293660": {
+      "title": "Software Engineering Intern (Summer 2027)",
+      "company": "Collins Aerospace",
+      "location": "Windsor Locks, CT",
+      "url": "https://www.linkedin.com/jobs/view/4468293660",
+      "first_seen": "2026-09-20",
+      "fit": "high",
+      "status": "ranked",
+      "note": "Summer 2027 explicit. Defense/aerospace target company (avionics). Generic SWE title but strong company fit \u2014 verify embedded scope with recruiter.",
+      "rank_score": 71,
+      "rank_verdict": "Good Fit",
+      "rank_date": "2026-09-20"
+    },
+    "lm_mfc_12142": {
+      "title": "Embedded Software Engineer Intern (Req 12142)",
+      "company": "Lockheed Martin",
+      "url": "https://www.lockheedmartinjobs.com/job/12142",
+      "first_seen": "2026-09-20",
+      "fit": "high",
+      "status": "applied",
+      "applied_date": "2026-09-20",
+      "note": "Grand Prairie, TX. Missiles & Fire Control (MFC). Applied directly via Lockheed careers portal (bulk applied to all open MFC Embedded Software Engineer Intern reqs at Orlando/Grand Prairie same day). Same resume as other MFC reqs: cv/lockheed/travis_resume_lockheed.tex. No individual posting text fetched (portal listing only gave title/location/job ID)."
+    },
+    "lm_mfc_12140": {
+      "title": "Embedded Software Engineer Intern (Req 12140)",
+      "company": "Lockheed Martin",
+      "url": "https://www.lockheedmartinjobs.com/job/12140",
+      "first_seen": "2026-09-20",
+      "fit": "high",
+      "status": "applied",
+      "applied_date": "2026-09-20",
+      "note": "Grand Prairie, TX. Missiles & Fire Control (MFC). Applied directly via Lockheed careers portal (bulk applied to all open MFC Embedded Software Engineer Intern reqs at Orlando/Grand Prairie same day). Same resume as other MFC reqs: cv/lockheed/travis_resume_lockheed.tex. No individual posting text fetched (portal listing only gave title/location/job ID)."
+    },
+    "lm_mfc_12659": {
+      "title": "Embedded Software Engineer Intern (Req 12659)",
+      "company": "Lockheed Martin",
+      "url": "https://www.lockheedmartinjobs.com/job/12659",
+      "first_seen": "2026-09-20",
+      "fit": "high",
+      "status": "applied",
+      "applied_date": "2026-09-20",
+      "note": "Grand Prairie, TX. Missiles & Fire Control (MFC). Applied directly via Lockheed careers portal (bulk applied to all open MFC Embedded Software Engineer Intern reqs at Orlando/Grand Prairie same day). Same resume as other MFC reqs: cv/lockheed/travis_resume_lockheed.tex. No individual posting text fetched (portal listing only gave title/location/job ID)."
+    },
+    "lm_mfc_11586": {
+      "title": "Embedded Software Engineer Intern (Req 11586)",
+      "company": "Lockheed Martin",
+      "url": "https://www.lockheedmartinjobs.com/job/11586",
+      "first_seen": "2026-09-20",
+      "fit": "high",
+      "status": "applied",
+      "applied_date": "2026-09-20",
+      "note": "Orlando, FL. Missiles & Fire Control (MFC). Applied directly via Lockheed careers portal (bulk applied to all open MFC Embedded Software Engineer Intern reqs at Orlando/Grand Prairie same day). Same resume as other MFC reqs: cv/lockheed/travis_resume_lockheed.tex. No individual posting text fetched (portal listing only gave title/location/job ID)."
+    },
+    "lm_mfc_11635": {
+      "title": "Embedded Software Engineer Intern (Req 11635)",
+      "company": "Lockheed Martin",
+      "url": "https://www.lockheedmartinjobs.com/job/11635",
+      "first_seen": "2026-09-20",
+      "fit": "high",
+      "status": "applied",
+      "applied_date": "2026-09-20",
+      "note": "Orlando, FL. Missiles & Fire Control (MFC). Applied directly via Lockheed careers portal (bulk applied to all open MFC Embedded Software Engineer Intern reqs at Orlando/Grand Prairie same day). Same resume as other MFC reqs: cv/lockheed/travis_resume_lockheed.tex. No individual posting text fetched (portal listing only gave title/location/job ID)."
+    },
+    "lm_mfc_11571": {
+      "title": "Embedded Software Engineer Intern (Req 11571)",
+      "company": "Lockheed Martin",
+      "url": "https://www.lockheedmartinjobs.com/job/11571",
+      "first_seen": "2026-09-20",
+      "fit": "high",
+      "status": "applied",
+      "applied_date": "2026-09-20",
+      "note": "Orlando, FL. Missiles & Fire Control (MFC). Applied directly via Lockheed careers portal (bulk applied to all open MFC Embedded Software Engineer Intern reqs at Orlando/Grand Prairie same day). Same resume as other MFC reqs: cv/lockheed/travis_resume_lockheed.tex. No individual posting text fetched (portal listing only gave title/location/job ID)."
+    },
+    "lm_mfc_12135": {
+      "title": "Embedded Software Engineer Intern (Req 12135)",
+      "company": "Lockheed Martin",
+      "url": "https://www.lockheedmartinjobs.com/job/12135",
+      "first_seen": "2026-09-20",
+      "fit": "high",
+      "status": "applied",
+      "applied_date": "2026-09-20",
+      "note": "Grand Prairie, TX. Missiles & Fire Control (MFC). Applied directly via Lockheed careers portal (bulk applied to all open MFC Embedded Software Engineer Intern reqs at Orlando/Grand Prairie same day). Same resume as other MFC reqs: cv/lockheed/travis_resume_lockheed.tex. No individual posting text fetched (portal listing only gave title/location/job ID)."
+    },
+    "lm_mfc_12114": {
+      "title": "Embedded Software Engineer Intern (Req 12114)",
+      "company": "Lockheed Martin",
+      "url": "https://www.lockheedmartinjobs.com/job/12114",
+      "first_seen": "2026-09-20",
+      "fit": "high",
+      "status": "applied",
+      "applied_date": "2026-09-20",
+      "note": "Orlando, FL. Missiles & Fire Control (MFC). Applied directly via Lockheed careers portal (bulk applied to all open MFC Embedded Software Engineer Intern reqs at Orlando/Grand Prairie same day). Same resume as other MFC reqs: cv/lockheed/travis_resume_lockheed.tex. No individual posting text fetched (portal listing only gave title/location/job ID)."
+    },
+    "lm_mfc_11919": {
+      "title": "Embedded Software Engineer Intern (Req 11919)",
+      "company": "Lockheed Martin",
+      "url": "https://www.lockheedmartinjobs.com/job/11919",
+      "first_seen": "2026-09-20",
+      "fit": "high",
+      "status": "applied",
+      "applied_date": "2026-09-20",
+      "note": "Orlando, FL. Missiles & Fire Control (MFC). Applied directly via Lockheed careers portal (bulk applied to all open MFC Embedded Software Engineer Intern reqs at Orlando/Grand Prairie same day). Same resume as other MFC reqs: cv/lockheed/travis_resume_lockheed.tex. No individual posting text fetched (portal listing only gave title/location/job ID)."
+    },
+    "lm_mfc_12328": {
+      "title": "Embedded Software Engineer Intern (Req 12328)",
+      "company": "Lockheed Martin",
+      "url": "https://www.lockheedmartinjobs.com/job/12328",
+      "first_seen": "2026-09-20",
+      "fit": "high",
+      "status": "applied",
+      "applied_date": "2026-09-20",
+      "note": "Grand Prairie, TX. Missiles & Fire Control (MFC). Applied directly via Lockheed careers portal (bulk applied to all open MFC Embedded Software Engineer Intern reqs at Orlando/Grand Prairie same day). Same resume as other MFC reqs: cv/lockheed/travis_resume_lockheed.tex. No individual posting text fetched (portal listing only gave title/location/job ID)."
+    },
+    "hermeus_gnc_flight_software_2027": {
+      "title": "GNC & Flight Software Intern - Spring/Summer 2027",
+      "company": "Hermeus",
+      "url": "https://hermeus.com/careers (pasted directly by user, not scraped)",
+      "first_seen": "2026-09-20",
+      "fit": "high",
+      "status": "applied",
+      "applied_date": "2026-09-20",
+      "note": "Atlanta, GA. Applied for Summer 2027 track specifically (posting covers both Spring and Summer). Pay confirmed $25-33/hr. Full evaluation score ~89 (Strong Fit) \u2014 GNC work is essentially Travis's personal flight-controller project professionally. See documents/applications/hermeus_gnc_flight_software_intern/"
+    }
+  }
+}

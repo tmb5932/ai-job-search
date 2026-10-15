@@ -16,9 +16,9 @@ How well do the required/preferred skills align with the candidate's capabilitie
 | 40-59 | Partial match, significant upskilling needed |
 | 0-39 | Fundamental mismatch |
 
-**Strong match areas:** [YOUR_PRIMARY_SKILLS]
-**Moderate match areas:** [YOUR_SECONDARY_SKILLS]
-**Weak match areas:** [SKILLS_YOU_LACK]
+**Strong match areas:** Embedded C/C++, STM32 microcontrollers (F4/F7/F446), ThreadX RTOS, CAN/CANopen, SPI/I2C/UART/PWM/ADC, hardware debugging (logic analyzer, oscilloscope, J-Link Segger), KiCad PCB design, Rust (embedded)
+**Moderate match areas:** Python scripting/automation, CI/CD (GitLab), Flask, PostgreSQL, Git/GitHub/GitLab
+**Weak match areas:** Data science/ML, cloud infrastructure, front-end web, enterprise/backend software engineering
 
 ### 2. Experience Match (0-100)
 Does work history align with what they're looking for?
@@ -30,9 +30,9 @@ Does work history align with what they're looking for?
 | 40-59 | Adjacent experience, would need to make the case |
 | 0-39 | Unrelated experience |
 
-**Strong:** [YOUR_DIRECT_EXPERIENCE_DOMAINS]
-**Moderate:** [YOUR_ADJACENT_EXPERIENCE]
-**Entry-level:** [ROLES_WITH_LIMITED_EXPERIENCE]
+**Strong:** Embedded firmware development (STM32, GE Vernova), RTOS integration (ThreadX, VCU project), communication protocols (CAN/CANopen/SPI/I2C), QA automation (Lockheed Martin), PCB design and bring-up (EVT, personal projects)
+**Moderate:** Python tooling, CI/CD pipelines, web dashboards (Flask)
+**Entry-level:** Pure software roles, data engineering, cloud-native development
 
 ### 3. Behavioral/Culture Fit (0-100)
 Does the role and company culture match the behavioral profile?
@@ -47,10 +47,12 @@ Does the role and company culture match the behavioral profile?
 **Red flags to research:** Department disorganization, work dominated by maintenance over development, poor chemistry with leadership, culture mismatches. Check reviews, media coverage, LinkedIn connections, and network contacts for insider perspective.
 
 ### 4. Location & Logistics (Pass/Fail + Notes)
-- Within commute range: PASS
-- Remote with occasional office: PASS
-- Requires relocation: FAIL (deal-breaker)
+- In-person or hybrid, anywhere in the US: PASS
+- Remote (US): PASS with flag — Travis prefers in-person/hybrid; note it in evaluation
+- Requires relocation within US: PASS — open to it
+- International / outside the US: FAIL
 - Frequent international travel: FLAG (discuss with user)
+- **Safety/crime rate:** When a posting offers a choice among multiple specific sites (e.g. an intern program that places across several offices), factor in each site's relative crime/safety profile alongside role fit, and note it explicitly rather than silently picking on technical fit alone. This isn't a pass/fail gate — a lower-safety site with a much stronger role match is still worth presenting — but always surface the trade-off so Travis can weigh it himself.
 
 ### 5. Career Alignment & Motivation (0-100)
 Does this role advance career goals and contain tasks that energize?
@@ -63,19 +65,22 @@ Does this role advance career goals and contain tasks that energize?
 | 0-39 | Dead end or backwards step |
 
 **Career goals:**
-- [YOUR_CAREER_GOAL_1]
-- [YOUR_CAREER_GOAL_2]
-- [YOUR_CAREER_GOAL_3]
+- Secure an Embedded/Firmware Engineering internship for May–August 2027 in defense, automotive/EV, aerospace, or robotics
+- Build toward a full-time embedded/firmware engineering role after completing the BS/MS at RIT (December 2027) — specifically in a domain where code has real physical effects (sensors, actuators, moving systems)
 
 **Motivation filter:** Evaluate not just whether you *can* do the tasks, but whether the tasks will *energize* you. Consider:
-- Tasks that energize: [YOUR_ENERGIZING_TASKS]
-- Tasks that drain: [YOUR_DRAINING_TASKS]
-- Non-task factors: leadership style, department culture, company values, degree of autonomy
+- Tasks that energize: Working with physical systems — sensors providing input, actuators producing real-world output (motors, flaps, arms); hands-on bench debugging (logic analyzer, DMM, oscilloscope); firmware that makes something move or respond
+- Tasks that drain: Pure signal/radio work with no physical actuation; pure software/cloud/backend with no hardware component; roles with no hands-on testing at all
+- Non-task factors: In-person or hybrid strongly preferred; culture that values hands-on engineering over abstraction
+
+**Domain breadth:** Travis's current GE Vernova internship is embedded C firmware for industrial radios (I/O subsystems, Modbus/MQTT protocol stacks over RF). He wants his next internship to build breadth, not repeat that domain. A role that is essentially "embedded firmware for a radio/comms product" again should be scored down on Career Alignment even when technical/experience match is strong — call this out explicitly in the evaluation rather than silently folding it into the score, so Travis can weigh domain novelty against raw fit himself. This is a preference, not a deal-breaker.
 
 **Life situation alignment:** Consider personal constraints:
-- **Security**: [YOUR_FINANCIAL_SITUATION_CONTEXT]
-- **Flexibility**: [YOUR_SCHEDULE_CONSTRAINTS]
-- **Professional development**: [YOUR_GROWTH_PRIORITIES]
+- **Security**: Student; internship compensation relevant but secondary to domain fit
+- **Flexibility**: Open to relocating anywhere in the US for the right internship; in-person/hybrid strongly preferred over remote
+- **Professional development**: Deepening embedded expertise in physical/actuation-heavy domains (robotics, aerospace, EV); building sensor fusion and control systems experience alongside firmware
+
+**Financial-loss threshold (precise definition):** estimate monthly after-tax pay at the stated hourly wage for the job's specific work location, and estimate average studio-apartment rent in a safe area of that same city (same safety criteria as the location-safety preference). If studio rent exceeds **~60% of monthly after-tax pay**, that's a real monetary loss for the summer, not just a "below target" flag. Travis will only accept that trade-off for an exceptional company or exceptionally compelling work, not a merely good/strong-fit role — when presenting such a posting, frame it as "this would cost you money to take," with the rent-vs-take-home math shown, not just a COL number gap.
 
 ### 6. Salary Benchmark (Optional)
 
@@ -105,6 +110,9 @@ Present the evaluation as:
 
 ```
 ## Job Fit Evaluation: [Role] at [Company]
+
+**Job ID / Req #:** [posting's job ID, req number, or other identifier exactly as it appears in the source (LinkedIn job ID, company req code, etc.) — always include this, even if it means noting "not stated in posting"]
+**URL:** [posting URL, if known]
 
 | Dimension | Score | Notes |
 |-----------|-------|-------|

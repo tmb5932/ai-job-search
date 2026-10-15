@@ -1,0 +1,52 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Cover Letter - Blue Origin
+% Summer 2027 Avionics Software Internship (Undergraduate)
+% R71424 — Denver, CO preferred
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\documentclass[]{cover}
+\usepackage{fancyhdr}
+
+\pagestyle{fancy}
+\fancyhf{}
+
+\rfoot{Page \thepage \hspace{0pt}}
+\thispagestyle{empty}
+\renewcommand{\headrulewidth}{0pt}
+\begin{document}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     TITLE NAME
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\namesection{}{\Huge{Travis Brown}}{
+  \href{mailto:browntravis760@gmail.com}{browntravis760@gmail.com} | 518-796-8703 | \urlstyle{same}\href{https://www.linkedin.com/in/tbrown5932}{linkedin.com/in/tbrown5932}
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     MAIN COVER LETTER CONTENT
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\currentdate{\today}
+\lettercontent{Dear Blue Origin Recruiting Team,}
+
+\lettercontent{I'm applying for the Summer 2027 Avionics Software Internship at Blue Origin's Denver, CO location. I'm a Computer Science student at RIT (accelerated BS/MS, December 2027) with two years of embedded firmware experience at GE Vernova and the RIT Electric Vehicle Team, and an ongoing autonomous flight controller project. Writing safety-critical software for launch vehicles and lunar landers is the work I'm actively building toward.}
+
+\lettercontent{My background covers the full lifecycle Blue Origin describes. At GE Vernova, I built a complete I/O subsystem from scratch in C on an STM32F7 for industrial radios. On the RIT Electric Vehicle Team, I write C++ firmware in ThreadX RTOS for a custom motorcycle VCU with a 300\,Hz state machine across dual CAN buses. I'm also building an autonomous fixed-wing flight controller on an ESP32S3 with FreeRTOS, PID stabilization, and GPS waypoint sequencing, on a KiCad PCB I designed myself. A few specifics:}
+
+{\raggedright\fontspec[Path = OpenFonts/fonts/raleway/]{Raleway-Medium}\fontsize{11pt}{13pt}\selectfont
+\begin{itemize}
+    \item \textbf{Real-time embedded systems:} ThreadX RTOS with a 300\,Hz hard deadline (EVT VCU) and FreeRTOS with concurrent sensor-fusion and autonomous-control tasks (flight controller), both on custom KiCad hardware.
+    \item \textbf{Verification and testing:} Built SITL simulators validating PID gains across 32 GPS approach scenarios before first flight; deployed a GitLab CI gate at Lockheed Martin automating 60\%+ of static validation checks across 100+ repositories.
+    \item \textbf{Hardware-level debug:} Diagnosed a servo jitter fault blocking a customer demo at GE Vernova by ruling out signal integrity and timing via oscilloscope and Saleae before isolating the defective component, enabling the demo to proceed on schedule.
+\end{itemize}\par}
+\vspace{4pt}
+
+\lettercontent{Blue Origin's avionics scope covers orbital rockets, ground systems, test stands, and lunar landers. The emphasis on code that must be correct every time, verified through rigorous lifecycle processes, maps to how I already approach embedded work.}
+
+\lettercontent{I don't consider a system proven until I've seen it work under the conditions that matter. I'm eager to grow into the formal rigor that aerospace software demands, and I'd welcome the chance to contribute to the avionics team. Thank you for your consideration.}
+
+\begin{flushright}
+\closing{Kind regards,}
+\signature{Travis Brown}
+\end{flushright}
+\end{document}

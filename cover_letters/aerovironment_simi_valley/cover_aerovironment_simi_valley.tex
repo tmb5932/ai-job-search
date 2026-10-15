@@ -1,0 +1,87 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Cover Letter - AeroVironment
+% Software Engineering Intern (Embedded Focus), Simi Valley CA
+% Plain XeLaTeX — matches simple resume style (Spectral font)
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\documentclass[11pt]{article}
+
+\usepackage[margin=0.75in, top=0.7in, bottom=0.7in]{geometry}
+\usepackage[hidelinks]{hyperref}
+\usepackage{parskip}
+\usepackage{fontspec}
+
+\setmainfont{Spectral}[
+  Path = ../../cv/fonts/,
+  UprightFont    = Spectral-Regular.ttf,
+  BoldFont       = Spectral-Bold.ttf,
+  ItalicFont     = Spectral-Italic.ttf,
+  BoldItalicFont = Spectral-BoldItalic.ttf
+]
+
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{14pt}
+\linespread{1.15}
+\raggedright
+
+% No hyphenation
+\hyphenpenalty=10000
+\exhyphenpenalty=10000
+
+\pagestyle{empty}
+\urlstyle{same}
+
+\begin{document}
+
+% ── DATE ─────────────────────────────────────────────────────────────────────
+\begin{flushright}
+  \today
+\end{flushright}
+
+% ── BODY ─────────────────────────────────────────────────────────────────────
+Dear AV Hiring Team,
+
+I'm applying for the Software Engineering Intern (Embedded Focus) role in
+Simi Valley for Summer 2027. I'm a Computer Science student at RIT in the
+combined bachelor's and master's program, with an expected graduation date
+of December 2027, and have a strong interest in firmware and embedded
+software. At GE Vernova, I built a full I/O subsystem from scratch in C on
+an STM32F7 for industrial radios. On the RIT Electric Vehicle Team, I'm the
+vehicle control unit (VCU) Software Lead, building real-time ThreadX
+firmware for our track motorcycle. In my free time I'm building an
+autonomous fixed-wing flight controller on an ESP32S3, with PID
+stabilization, sensor fusion, and GPS waypoint following validated across
+an 80-test SITL regression suite; the full airframe recently completed its
+first flight in manual mode.
+
+What got me interested in AeroVironment specifically is how tightly a
+platform like Switchblade's size and power budget are tuned. The 300
+variant's full launch-ready weight is under eight pounds, and flight
+endurance changes directly depending on whether it's carrying a warhead or
+just sensors. That's the same kind of power, weight, and compute tradeoff I
+deal with on my own flight controller, where every component on the board
+competes with flight time. I want to help build the embedded software that
+works inside those constraints.
+
+Sensor and real-time control firmware is where I spend most of my time.
+I've written interrupt-driven I/O and real-time control loops for both
+bare-metal and RTOS targets, in ThreadX and FreeRTOS, and I debug at the
+hardware level regularly with a Saleae logic analyzer, an oscilloscope, and
+a J-Link Segger. My flight controller runs PID stabilization and GPS
+waypoint navigation on an ESP32S3 over SPI, I2C, and UART sensor buses,
+validated in simulation before any of it flew. I've also worked across SPI,
+I2C, UART, ADC, and PWM building both the GE Vernova I/O subsystem and
+EVT's hardware-agnostic peripheral library, writing drivers directly from
+microcontroller datasheets and reference manuals. At Lockheed Martin, I
+built a code-review automation tool that became a mandatory part of the
+team's merge request process, so I'm just as comfortable with the
+peer-review and configuration-management side of embedded development.
+
+I would welcome the opportunity to talk more about where I could
+contribute. Thank you for your consideration.
+
+Thanks,
+
+Travis Brown
+
+\end{document}

@@ -1,0 +1,14 @@
+# Ignore everything by default; only .tex/.pdf sources and this config are tracked.
+*
+
+!.gitignore
+!README.md
+!travis_resume.tex
+!travis_resume.pdf
+!web_resume.tex
+!web_resume.pdf
+!.github
+!.github/**
+
+# Company-specific resume variants (cv/<company>/<role-slug>/) are kept local
+# only — already covered by the top-level "*" rule above, nothing to allowlist.

@@ -1,0 +1,94 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Cover Letter - BETA Technologies
+% Software, Controls & Autonomy Internship (Summer 2027)
+% Plain XeLaTeX — matches simple resume style (Spectral font)
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\documentclass[11pt]{article}
+
+\usepackage[margin=0.75in, top=0.7in, bottom=0.7in]{geometry}
+\usepackage[hidelinks]{hyperref}
+\usepackage{parskip}
+\usepackage{fontspec}
+
+\setmainfont{Spectral}[
+  Path = ../../cv/fonts/,
+  UprightFont    = Spectral-Regular.ttf,
+  BoldFont       = Spectral-Bold.ttf,
+  ItalicFont     = Spectral-Italic.ttf,
+  BoldItalicFont = Spectral-BoldItalic.ttf
+]
+
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{14pt}
+\linespread{1.15}
+\raggedright
+
+% No hyphenation
+\hyphenpenalty=10000
+\exhyphenpenalty=10000
+
+\pagestyle{empty}
+\urlstyle{same}
+
+\begin{document}
+
+% ── DATE ─────────────────────────────────────────────────────────────────────
+\begin{flushright}
+  \today
+\end{flushright}
+
+\vspace{4pt}
+
+% ── BODY ─────────────────────────────────────────────────────────────────────
+Dear BETA Technologies Hiring Team,
+
+I am applying for the Software, Controls \& Autonomy Internship for Summer
+2027, specifically the Embedded Systems and Airborne Electric Software
+tracks. I'm a Computer Science student at RIT in the combined bachelor's and
+master's program, with an expected graduation date of December 2027, and
+have a strong interest in firmware and embedded software. At GE Vernova, I
+built a full I/O subsystem from scratch in C on an STM32F7 for industrial
+radios, using the STM32 Hardware Abstraction Layer. On the RIT Electric
+Vehicle Team, I'm the vehicle control unit (VCU) Software Lead. The firmware
+I've built so far is for our current track motorcycle's VCU, written in both
+bare-metal C++ and ThreadX RTOS, running a 300\,Hz control loop for
+drive-by-wire control and board-level fault handling, and integrating a
+Simulink-generated state machine from our controls engineers into that
+firmware. In my free time I'm building
+an autonomous fixed-wing flight controller on an ESP32S3 running FreeRTOS,
+with PID stabilization, sensor fusion, GPS waypoint following, and manual
+override for safety. The autonomous side is validated in simulation, and the
+full airframe recently completed its first flight in manual mode.
+
+The ALIA VTOL's lift-plus-cruise layout is what got me interested in BETA
+specifically. Instead of tilting rotors or variable-pitch props to
+transition between hover and cruise, the propellers stay fixed and the wing
+carries cruise flight, trading a harder hover-to-cruise transition for a
+mechanically simpler aircraft. That's exactly the kind of engineering
+choice I find interesting, and the fourfold motor redundancy on each lift
+prop is the same fault-tolerant thinking I try to build into the VCU. I want
+to help write the embedded software behind decisions like that.
+
+The VCU's firmware design is informed by ISO 26262 principles, and I built
+its CAN/CANopen communication layer from scratch, including the CANopen
+object dictionary and message formats connecting the VCU to its motor
+controller, battery management system, and power subsystem, which is close
+to the safety-critical electrical software work your Airborne Electric
+Software team is describing. I've worked across SPI, I2C, UART, ADC, and PWM building
+both the GE Vernova I/O subsystem and EVT's peripheral driver library, and I
+debug at the hardware level regularly with a Saleae logic analyzer, an
+oscilloscope, and a J-Link Segger. My flight controller project is the
+closest thing I have to aircraft work directly. It integrates the Madgwick
+AHRS library for IMU and magnetometer sensor fusion and attitude state
+estimation, runs a cascaded PID
+stabilization and waypoint-following loop, and I designed its PCB in KiCad.
+
+I would welcome the opportunity to talk more about where I could contribute.
+Thank you for your consideration.
+
+Thanks,
+
+Travis Brown
+
+\end{document}
